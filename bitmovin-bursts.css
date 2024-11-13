@@ -2907,7 +2907,11 @@
   display: none;
 }
 
-.bmpui-label-time {
+.bmpui-ui-label-time {
+  display: none;
+}
+
+.bmpui-seekbar {
   display: none;
 }
 
