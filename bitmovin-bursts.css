@@ -2904,7 +2904,11 @@
 }
 
 .bmpui-ui-timelinetogglebutton {
-  display: none !important;
+  display: none;
+}
+
+.bmpui-label-time {
+  display: none;
 }
 
 .bmpui-ui-settingstogglebutton.bmpui-on {
