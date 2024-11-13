@@ -1120,12 +1120,14 @@
 .bmpui-seeking.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	-webkit-transition: none;
 	transition: none
+	display: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar {
 	height: 100%;
 	width: auto
+	display: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
@@ -1138,6 +1140,7 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	right: 0;
 	top: auto
+	display: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker,
@@ -1145,6 +1148,7 @@
 	height: 1em;
 	top: -.5em;
 	width: 100%
+	display: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
@@ -1152,6 +1156,7 @@
 	height: 100%;
 	margin: 0 auto;
 	width: auto
+	display: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
@@ -1159,6 +1164,7 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	margin: 0 auto
+	display: none
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
@@ -1299,6 +1305,7 @@
 	right: .3em;
 	top: .5em;
 	width: auto
+	display: none
 }
 
 .bmpui-ui-casttogglebutton {
@@ -2456,6 +2463,7 @@
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-titlebar {
 	-webkit-transition: none;
 	transition: none
+	display: none
 }
 
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-buffering-overlay-indicator {
