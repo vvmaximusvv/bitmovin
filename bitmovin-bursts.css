@@ -707,7 +707,6 @@
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-label-ad-message {
 	cursor: default;
 	white-space: nowrap
-	display: none
 }
 
 .bmpui-hidden.bmpui-ui-label,
@@ -919,7 +918,6 @@
 	-webkit-transition: opacity .3s, visibility 0s;
 	transition: opacity .3s, visibility 0s;
 	visibility: visible
-	display: none;
 }
 
 .bmpui-ui-seekbar-label.bmpui-hidden {
@@ -927,19 +925,16 @@
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
 	visibility: hidden
-	display: none;
 }
 
 .bmpui-ui-seekbar-label>.bmpui-container-wrapper {
 	margin-left: -50%;
 	margin-right: 50%;
 	position: relative
-	display: none;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
 	border-bottom: .2em solid #fff
-	display: none;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
@@ -953,17 +948,14 @@
 	position: absolute;
 	top: 100%;
 	width: 0
-	display: none;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper {
 	position: relative
-	display: none;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-thumbnail {
 	width: 6em
-	display: none;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
@@ -976,20 +968,17 @@
 	padding: .5em;
 	position: absolute;
 	width: 100%
-	display: none;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-time {
 	display: block;
 	line-height: .8em
-	display: none
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-title {
 	display: block;
 	margin-bottom: .3em;
 	white-space: normal
-	display: none;
 }
 
 .bmpui-ui-seekbar,
@@ -1131,14 +1120,12 @@
 .bmpui-seeking.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	-webkit-transition: none;
 	transition: none
-	display: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar {
 	height: 100%;
 	width: auto
-	display: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
@@ -1151,7 +1138,6 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	right: 0;
 	top: auto
-	display: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker,
@@ -1159,7 +1145,6 @@
 	height: 1em;
 	top: -.5em;
 	width: 100%
-	display: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
@@ -1167,7 +1152,6 @@
 	height: 100%;
 	margin: 0 auto;
 	width: auto
-	display: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
@@ -1175,7 +1159,6 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	margin: 0 auto
-	display: none
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
@@ -1316,7 +1299,6 @@
 	right: .3em;
 	top: .5em;
 	width: auto
-	display: none
 }
 
 .bmpui-ui-casttogglebutton {
@@ -1644,24 +1626,20 @@
 
 .bmpui-ui-playbacktimelabel {
 	text-transform: uppercase
-	display: none
 }
 
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live {
 	cursor: pointer
-	display: none
 }
 
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live:before {
 	color: #999;
 	content: "●";
 	padding-right: .2em
-	display: none
 }
 
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live.bmpui-ui-playbacktimelabel-live-edge:before {
 	color: red
-	display: none
 }
 
 .bmpui-ui-buffering-overlay {
@@ -2478,7 +2456,6 @@
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-titlebar {
 	-webkit-transition: none;
 	transition: none
-	display: none
 }
 
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-buffering-overlay-indicator {
@@ -2696,7 +2673,6 @@
 
 .bmpui-ui-skin-tv .bmpui-ui-playbacktimelabel {
 	font-size: 2.5vh
-	display: none
 }
 
 .bmpui-ui-skin-tv :focus {
@@ -2927,20 +2903,11 @@
 	display: none;
 }
 
-.bmpui-ui-timelinetogglebutton {
-  display: none;
+.bmpui-ui-playbacktimelabel {
+    display: none;
 }
-
-.bmpui-ui-label-time {
-  display: none;
-}
-
-.bmpui-seekbar {
-  display: none;
-}
-
-.bmpui-ui-seekbar-label {
-  display: none;
+.bmpui-ui-seekbar{
+    display: none;
 }
 
 .bmpui-ui-settingstogglebutton.bmpui-on {
