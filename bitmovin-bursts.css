@@ -707,6 +707,7 @@
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-label-ad-message {
 	cursor: default;
 	white-space: nowrap
+	display: none
 }
 
 .bmpui-hidden.bmpui-ui-label,
@@ -1634,20 +1635,24 @@
 
 .bmpui-ui-playbacktimelabel {
 	text-transform: uppercase
+	display: none
 }
 
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live {
 	cursor: pointer
+	display: none
 }
 
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live:before {
 	color: #999;
 	content: "●";
 	padding-right: .2em
+	display: none
 }
 
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live.bmpui-ui-playbacktimelabel-live-edge:before {
 	color: red
+	display: none
 }
 
 .bmpui-ui-buffering-overlay {
@@ -2682,6 +2687,7 @@
 
 .bmpui-ui-skin-tv .bmpui-ui-playbacktimelabel {
 	font-size: 2.5vh
+	display: none
 }
 
 .bmpui-ui-skin-tv :focus {
