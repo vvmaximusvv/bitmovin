@@ -134,59 +134,79 @@
 	-webkit-transition: opacity .3s, visibility 0s;
 	transition: opacity .3s, visibility 0s;
 	width: 100%
+	display: none
 }
 
 .bmpui-ui-controlbar.bmpui-hidden {
 	opacity: 0;
 	-webkit-transition: opacity .3s;
 	transition: opacity .3s
+	display: none
 }
 
-.bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper,
+.bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper{
+	display: none
+}
 .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	margin: .5em 0
+	display: none
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-top .bmpui-ui-label {
 	font-size: .9em
+	display: none
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper>* {
 	margin: 0 .5em
+	display: none
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom {
 	white-space: nowrap
+	display: none
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider {
 	margin: auto .5em;
 	width: 5em
+	display: none
 }
 
-.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper,
+.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper{
+	display: none
+}
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper {
 	border-spacing: .5em 0;
 	display: table
+	display: none
 }
 
-.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper>*,
+.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper>*{
+	display: none
+}
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper>* {
 	display: table-cell;
 	vertical-align: middle
+	display: none
 }
 
-.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper>.bmpui-hidden,
+.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper>.bmpui-hidden{
+	display: none
+}
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper>.bmpui-hidden {
 	display: none
 }
 
-.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider,
+.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider{
+	display: none
+}
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper .bmpui-ui-volumeslider {
 	width: 10%
+	display: none
 }
 
 .bmpui-ui-airplaytogglebutton,
@@ -2393,6 +2413,7 @@
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-titlebar {
 	background: hsla(0, 0%, 7%, .85);
 	padding: .3em .5em
+	display: none
 }
 
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-controlbar {
@@ -2400,6 +2421,7 @@
 	left: 10%;
 	right: 10%;
 	width: auto
+	display: none
 }
 
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-titlebar {
@@ -2451,7 +2473,9 @@
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-seekbar-bufferlevel,
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-seekbar-playbackposition,
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-buffering-overlay,
-.bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-controlbar,
+.bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-controlbar{
+	display: none
+}
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay,
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-titlebar {
 	-webkit-transition: none;
@@ -2697,9 +2721,15 @@
 	user-select: none
 }
 
-.bmpui-ui-uicontainer.bmpui-player-state-finished .bmpui-ui-controlbar,
-.bmpui-ui-uicontainer.bmpui-player-state-finished .bmpui-ui-hugeplaybacktogglebutton,
-.bmpui-ui-uicontainer.bmpui-player-state-idle .bmpui-ui-controlbar,
+.bmpui-ui-uicontainer.bmpui-player-state-finished .bmpui-ui-controlbar{
+	display: none
+}
+.bmpui-ui-uicontainer.bmpui-player-state-finished .bmpui-ui-hugeplaybacktogglebutton{
+	display: none
+}
+.bmpui-ui-uicontainer.bmpui-player-state-idle .bmpui-ui-controlbar{
+	display: none
+}
 .bmpui-ui-uicontainer.bmpui-player-state-idle .bmpui-ui-hugeplaybacktogglebutton,
 .bmpui-ui-uicontainer.bmpui-player-state-idle .bmpui-ui-titlebar {
 	display: none
