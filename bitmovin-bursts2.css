@@ -2941,41 +2941,37 @@
 .bmpui-ui-playbacktimelabel {
     display: none;
 }
-
-/* Base seek bar - minimal line */
+/*
 .bmpui-ui-seekbar {
-    height: 2px;                  /* Set a thin height */
-    width: 100%;                  /* Make it span the full width */
-    background-color: #e0e0e0;    /* Light gray background */
+    height: 2px;                 
+    width: 100%;                  
+    background-color: #e0e0e0;    
     position: absolute;
-    bottom: 0;                    /* Stick to the bottom of the player */
+    bottom: 0;                    
     left: 0;
-    z-index: 0;                  /* Ensure it stays above other elements */
-    border-radius: 1px;           /* Rounded corners for a sleek line */
+    z-index: 0;                  
+    border-radius: 1px;           
 }
 
-/* Progress bar within the seek bar */
 .bmpui-seekbar-progress {
-    background-color: #ff0000;    /* Red color for progress (like YouTube) */
-    height: 100%;                 /* Match the seek bar height */
-    border-radius: 2px;           /* Rounded corners to match the seek bar */
-    transition: width 0.2s ease;  /* Smooth transition for progress updates */
+    background-color: #ff0000;    
+    height: 100%;                 
+    border-radius: 2px;           
+    transition: width 0.2s ease;  
 }
 
-/* Hide buffering track (optional) */
 .bmpui-seekbar-buffer {
-    display: none;                /* Remove buffering track for simplicity */
+    display: none;                
 }
 
-/* Hide labels or tooltips (optional) */
 .bmpui-ui-seekbar-label {
-    display: none;                /* Disable time markers or tooltips */
+    display: none;                
 }
 
-/* Hide the thumb (circle) */
 .bmpui-seekbar-thumb {
-    display: none !important; /* Completely hide the draggable thumb */
+    display: none !important; 
 }
+*/
 
 
 .bmpui-ui-settingstogglebutton.bmpui-on {
