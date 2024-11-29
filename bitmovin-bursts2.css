@@ -910,7 +910,7 @@
 .bmpui-ui-seekbar-label {
 	bottom: 100%;
 	left: 0;
-	margin-bottom: 0;
+	margin-bottom: 1em;
 	opacity: 1;
 	pointer-events: none;
 	position: absolute;
@@ -924,12 +924,12 @@
 	opacity: 0;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
-	visibility: visible
+	visibility: hidden
 }
 
 .bmpui-ui-seekbar-label>.bmpui-container-wrapper {
-	margin-left: 0%;
-	margin-right: 0%;
+	margin-left: -50%;
+	margin-right: 50%;
 	position: relative
 }
 
@@ -942,11 +942,11 @@
 	border-top-color: #fff;
 	content: " ";
 	height: 0;
-	left: 0%;
-	margin-left: 0em;
+	left: 50%;
+	margin-left: -.5em;
 	pointer-events: none;
 	position: absolute;
-	top: 0%;
+	top: 100%;
 	width: 0
 }
 
@@ -2808,13 +2808,11 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
     background-color: #e50038;
-    bottom: 0;
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
     background-color: #e50038;
     border-color: #e50038;
-    bottom: 0;
 }
 
 .bmpui-ui-titlebar > .bmpui-container-wrapper .bmpui-label-metadata-title {
