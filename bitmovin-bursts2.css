@@ -92,7 +92,7 @@
 	pointer-events: auto
 }
 
-.bmpui-ui-uicontainer.bmpui-hidden {
+.bmpui-ui-uicontainer{
 	display: none
 }
 
@@ -136,7 +136,7 @@
 	width: 100%
 }
 
-.bmpui-ui-controlbar.bmpui-hidden {
+.bmpui-ui-controlbar{
 	opacity: 0;
 	-webkit-transition: opacity .3s;
 	transition: opacity .3s
@@ -179,8 +179,8 @@
 	vertical-align: middle
 }
 
-.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper>.bmpui-hidden,
-.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper>.bmpui-hidden {
+.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper>,
+.bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper> {
 	display: none
 }
 
@@ -737,7 +737,7 @@
 	visibility: visible
 }
 
-.bmpui-hidden.bmpui-ui-settings-panel {
+.bmpui-ui-settings-panel {
 	opacity: 0;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
@@ -786,7 +786,7 @@
 	border-bottom: 0
 }
 
-.bmpui-ui-settings-panel-page .bmpui-ui-settings-panel-item.bmpui-hidden {
+.bmpui-ui-settings-panel-page .bmpui-ui-settings-panel-item{
 	display: none
 }
 
@@ -1058,7 +1058,7 @@
 	transition: bottom .15s ease-out
 }
 
-.bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay.bmpui-hidden {
+.bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay {
 	display: none
 }
 
@@ -1156,7 +1156,7 @@
 	width: 1.5em
 }
 
-.bmpui-ui-volumecontrolbutton .bmpui-ui-volumeslider.bmpui-hidden {
+.bmpui-ui-volumecontrolbutton .bmpui-ui-volumeslider {
 	max-height: 0;
 	-webkit-transition: max-height .15s ease-out;
 	transition: max-height .15s ease-out
@@ -1201,7 +1201,7 @@
 	width: 100%
 }
 
-.bmpui-ui-cast-status-overlay.bmpui-hidden {
+.bmpui-ui-cast-status-overlay{
 	opacity: 0;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
@@ -1235,7 +1235,7 @@
 	width: 100%
 }
 
-.bmpui-ui-errormessage-overlay.bmpui-hidden {
+.bmpui-ui-errormessage-overlay {
 	display: none
 }
 
@@ -1293,7 +1293,7 @@
 	width: 100%
 }
 
-.bmpui-ui-titlebar.bmpui-hidden {
+.bmpui-ui-titlebar{
 	opacity: 0;
 	-webkit-transition: opacity .3s;
 	transition: opacity .3s
@@ -1345,7 +1345,7 @@
 	vertical-align: middle
 }
 
-.bmpui-ui-recommendation-overlay.bmpui-hidden {
+.bmpui-ui-recommendation-overlay {
 	opacity: 0;
 	-webkit-transition: opacity .6s, visibility .6s;
 	transition: opacity .6s, visibility .6s;
@@ -1538,7 +1538,7 @@
 	width: 100%
 }
 
-.bmpui-ui-buffering-overlay.bmpui-hidden {
+.bmpui-ui-buffering-overlay{
 	opacity: 0;
 	-webkit-transition: opacity .6s, visibility .6s;
 	transition: opacity .6s, visibility .6s;
@@ -1636,7 +1636,7 @@
 	animation-delay: .4s
 }
 
-.bmpui-ui-buffering-overlay.bmpui-hidden .bmpui-ui-buffering-overlay-indicator {
+.bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
 	display: none
 }
 
