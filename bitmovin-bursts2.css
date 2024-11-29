@@ -2923,6 +2923,11 @@
     display: none;
 }
 
+/* Hide the circle (thumb) on the seek bar */
+.bmpui-seekbar-thumb {
+    display: none !important; /* Completely hide the thumb */
+}
+
 /* Base seek bar - minimal line */
 .bmpui-ui-seekbar {
     height: 2px;                  /* Set a thin height */
