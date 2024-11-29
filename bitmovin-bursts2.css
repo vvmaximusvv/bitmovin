@@ -2942,11 +2942,6 @@
     display: none;
 }
 
-/* Hide the circle (thumb) on the seek bar */
-.bmpui-seekbar-thumb {
-    display: none; /* Completely hide the thumb */
-}
-
 /* Base seek bar - minimal line */
 .bmpui-ui-seekbar {
     height: 2px;                  /* Set a thin height */
@@ -2975,6 +2970,11 @@
 /* Hide labels or tooltips (optional) */
 .bmpui-ui-seekbar-label {
     display: none;                /* Disable time markers or tooltips */
+}
+
+/* Hide the thumb (circle) */
+.bmpui-seekbar-thumb {
+    display: none !important; /* Completely hide the draggable thumb */
 }
 
 
