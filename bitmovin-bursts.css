@@ -910,7 +910,7 @@
 .bmpui-ui-seekbar-label {
 	bottom: 100%;
 	left: 0;
-	margin-bottom: 1em;
+	margin-bottom: 0;
 	opacity: 1;
 	pointer-events: none;
 	position: absolute;
