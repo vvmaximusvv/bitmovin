@@ -924,12 +924,12 @@
 	opacity: 0;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
-	visibility: hidden
+	visibility: visible
 }
 
 .bmpui-ui-seekbar-label>.bmpui-container-wrapper {
-	margin-left: -50%;
-	margin-right: 50%;
+	margin-left: 0%;
+	margin-right: 0%;
 	position: relative
 }
 
@@ -942,11 +942,11 @@
 	border-top-color: #fff;
 	content: " ";
 	height: 0;
-	left: 50%;
-	margin-left: -.5em;
+	left: 0%;
+	margin-left: 0em;
 	pointer-events: none;
 	position: absolute;
-	top: 100%;
+	top: 0%;
 	width: 0
 }
 
