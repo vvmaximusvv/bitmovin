@@ -2808,11 +2808,13 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
     background-color: #e50038;
+    bottom: 0;
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
     background-color: #e50038;
     border-color: #e50038;
+    bottom: 0;
 }
 
 .bmpui-ui-titlebar > .bmpui-container-wrapper .bmpui-label-metadata-title {
