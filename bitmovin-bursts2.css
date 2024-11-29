@@ -2944,7 +2944,7 @@
 
 /* Hide the circle (thumb) on the seek bar */
 .bmpui-seekbar-thumb {
-    display: none !important; /* Completely hide the thumb */
+    display: none; /* Completely hide the thumb */
 }
 
 /* Base seek bar - minimal line */
@@ -2955,8 +2955,8 @@
     position: absolute;
     bottom: 0;                    /* Stick to the bottom of the player */
     left: 0;
-    z-index: 10;                  /* Ensure it stays above other elements */
-    border-radius: 2px;           /* Rounded corners for a sleek line */
+    z-index: 0;                  /* Ensure it stays above other elements */
+    border-radius: 1px;           /* Rounded corners for a sleek line */
 }
 
 /* Progress bar within the seek bar */
