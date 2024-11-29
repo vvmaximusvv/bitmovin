@@ -906,116 +906,6 @@
 .bmpui-ui-listbox .bmpui-ui-listbox-button:last-child {
 	border-bottom: 0
 }
-
-.bmpui-ui-seekbar-label {
-	bottom: 100%;
-	left: 0;
-	margin-bottom: 1em;
-	opacity: 1;
-	pointer-events: none;
-	position: absolute;
-	text-align: center;
-	-webkit-transition: opacity .3s, visibility 0s;
-	transition: opacity .3s, visibility 0s;
-	visibility: visible
-}
-
-.bmpui-ui-seekbar-label.bmpui-hidden {
-	opacity: 0;
-	-webkit-transition: opacity .3s, visibility .3s;
-	transition: opacity .3s, visibility .3s;
-	visibility: hidden
-}
-
-.bmpui-ui-seekbar-label>.bmpui-container-wrapper {
-	margin-left: -50%;
-	margin-right: 50%;
-	position: relative
-}
-
-.bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
-	border-bottom: .2em solid #fff
-}
-
-.bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
-	border: .5em solid transparent;
-	border-top-color: #fff;
-	content: " ";
-	height: 0;
-	left: 50%;
-	margin-left: -.5em;
-	pointer-events: none;
-	position: absolute;
-	top: 100%;
-	width: 0
-}
-
-.bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper {
-	position: relative
-}
-
-.bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-thumbnail {
-	width: 6em
-}
-
-.bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
-	background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, .7)));
-	background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .7));
-	bottom: 0;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	display: block;
-	padding: .5em;
-	position: absolute;
-	width: 100%
-}
-
-.bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-time {
-	display: block;
-	line-height: .8em
-}
-
-.bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-title {
-	display: block;
-	margin-bottom: .3em;
-	white-space: normal
-}
-
-.bmpui-ui-seekbar,
-.bmpui-ui-volumeslider {
-	cursor: pointer;
-	font-size: 1em;
-	height: 1em;
-	position: relative;
-	width: 100%
-}
-
-.bmpui-hidden.bmpui-ui-seekbar,
-.bmpui-hidden.bmpui-ui-volumeslider {
-	display: none
-}
-
-.bmpui-ui-seekbar:focus,
-.bmpui-ui-volumeslider:focus {
-	-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
-	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
-	outline: none
-}
-
-.bmpui-ui-seekbar:focus:not(.bmpui-focus-visible),
-.bmpui-ui-volumeslider:focus:not(.bmpui-focus-visible) {
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	outline: none
-}
-
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers,
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker,
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers,
@@ -1038,14 +928,12 @@
 	width: 100%
 }
 
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop {
 	background-color: hsla(0, 0%, 100%, .2);
 	margin: auto 0;
 	width: 100%
 }
 
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
 	background-color: #fff;
 	margin: auto 0;
@@ -1057,13 +945,11 @@
 	transition-property: transform, -webkit-transform
 }
 
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	background-color: hsla(0, 0%, 100%, .2);
 	margin: auto 0
 }
 
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	background-color: #1fabe2;
 	margin: auto 0;
@@ -1085,12 +971,10 @@
 	width: .9375em
 }
 
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers {
 	height: .5625em
 }
 
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker {
 	background-color: #fff;
 	height: 100%;
@@ -1106,7 +990,6 @@
 	width: 2px
 }
 
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image {
 	height: 1.25em;
 	position: absolute;
@@ -1114,24 +997,17 @@
 	transform: translate(-50%, calc(-100% - .2em))
 }
 
-.bmpui-seeking.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
-.bmpui-seeking.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-seeking.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-seeking.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	-webkit-transition: none;
 	transition: none
 }
 
-.bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar {
 	height: 100%;
 	width: auto
 }
 
-.bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
-.bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
-.bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
-.bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition,
@@ -1140,22 +1016,18 @@
 	top: auto
 }
 
-.bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker {
 	height: 1em;
 	top: -.5em;
 	width: 100%
 }
 
-.bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop {
 	height: 100%;
 	margin: 0 auto;
 	width: auto
 }
 
-.bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
-.bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	margin: 0 auto
