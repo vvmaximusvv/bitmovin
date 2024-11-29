@@ -2781,7 +2781,9 @@
 
 /* Customize the base seek bar */
 .bmpui-ui-seekbar {
-    height: 4px;                /* Thin bar */
+    opacity: 1 !important;  /* Ensure full visibility */
+    visibility: visible !important;
+    height: 2px;                /* Thin bar */
     width: 100%;                /* Full width of the player */
     background-color: #e0e0e0;  /* Light gray background for the track */
     position: absolute;
