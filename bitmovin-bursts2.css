@@ -2799,11 +2799,6 @@
     background-color: #e50038;
 }
 
-.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    background-color: #e50038;
-    border-color: #e50038;
-}
-
 .bmpui-ui-titlebar > .bmpui-container-wrapper .bmpui-label-metadata-title {
     display: none;
 }
