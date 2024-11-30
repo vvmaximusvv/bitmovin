@@ -62,7 +62,7 @@
 
 .bmpui-ui-buffering-overlay,
 .bmpui-ui-cast-status-overlay,
-.bmpui-ui-container,
+,
 .bmpui-ui-controlbar,
 .bmpui-ui-errormessage-overlay,
 .bmpui-ui-listbox,
@@ -935,7 +935,7 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
-	border-bottom: .1em solid #fff
+	border-bottom: 0em solid #fff
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
@@ -1079,7 +1079,7 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
 	background-color: rgba(31, 171, 226, .5);
-	border: .1em solid #1fabe2;
+	border: 0em solid #1fabe2;
 	border-radius: 50%;
 	height: .5375em;
 	left: -20.46875em;
@@ -2576,7 +2576,7 @@
 }
 
 .bmpui-ui-skin-smallscreen.bmpui-no-flexbox .bmpui-ui-titlebar>.bmpui-container-wrapper {
-	border-spacing: .5em 0;
+	border-spacing: 0;
 	display: table;
 	width: 100%
 }
