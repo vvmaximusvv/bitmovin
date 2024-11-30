@@ -955,7 +955,7 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-thumbnail {
-	width: 0;
+	display: none;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
