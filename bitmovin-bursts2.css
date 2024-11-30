@@ -986,7 +986,7 @@
 .bmpui-ui-volumeslider {
 	cursor: pointer;
 	font-size: 1em;
-	height: 1em;
+	height: 0.5em;
 	position: absolute;
 	width: 100%
 }
@@ -1027,7 +1027,7 @@
 	bottom: 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	height: .3125em;
+	height: .2125em;
 	left: 0;
 	margin: 0;
 	position: absolute;
@@ -1079,16 +1079,16 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
 	background-color: rgba(31, 171, 226, .5);
-	border: .1875em solid #1fabe2;
+	border: .1em solid #1fabe2;
 	border-radius: 50%;
-	height: .9375em;
+	height: .5375em;
 	left: -20.46875em;
 	width: .9375em
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers {
-	height: .5625em
+	height: .2625em
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
@@ -1109,7 +1109,7 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image {
-	height: 1.25em;
+	height: 1em;
 	position: absolute;
 	-webkit-transform: translate(-50%, calc(-100% - .2em));
 	transform: translate(-50%, calc(-100% - .2em))
@@ -1143,7 +1143,7 @@
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker {
-	height: 1em;
+	height: 0.5em;
 	top: -.5em;
 	width: 100%
 }
