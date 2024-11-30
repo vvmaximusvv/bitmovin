@@ -955,7 +955,7 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-thumbnail {
-	width: 6em
+	width: 0em
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
@@ -1081,7 +1081,7 @@
 	border: .1875em solid #1fabe2;
 	border-radius: 50%;
 	height: .9375em;
-	left: -.46875em;
+	left: -3.46875em;
 	width: .9375em
 }
 
