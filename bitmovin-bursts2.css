@@ -117,7 +117,7 @@
 
 .bmpui-ui-uicontainer.bmpui-no-flexbox.bmpui-fullscreen {
 	left: 0;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	z-index: 999999
 }
@@ -931,7 +931,7 @@
 .bmpui-ui-seekbar-label>.bmpui-container-wrapper {
 	margin-left: -50%;
 	margin-right: 50%;
-	position: relative
+	position: absolute
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
@@ -952,7 +952,7 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper {
-	position: relative
+	position: absolute
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-thumbnail {
@@ -2642,7 +2642,7 @@
 	display: inline-flex;
 	font-size: 3.5vh;
 	justify-content: space-between;
-	position: relative;
+	position: absolute;
 	width: 100%
 }
 
