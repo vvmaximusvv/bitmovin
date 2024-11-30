@@ -725,7 +725,7 @@
 
 .bmpui-ui-settings-panel {
 	background-color: hsla(0, 0%, 7%, .85);
-	bottom: 5em;
+	bottom: 0;
 	opacity: 1;
 	overflow: hidden;
 	padding: 0;
@@ -1264,7 +1264,7 @@
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-cea608.bmpui-controlbar-visible {
-	bottom: 2em;
+	bottom: 0;
 	-webkit-transition: none;
 	transition: none
 }
@@ -1492,7 +1492,7 @@
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-hugereplaybutton {
-	bottom: 2em;
+	bottom: 0;
 	left: 2em;
 	position: absolute
 }
@@ -1529,7 +1529,7 @@
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-recommendation-item .bmpui-title {
-	bottom: 3em;
+	bottom: 0;
 	left: 1em;
 	position: absolute;
 	right: 1em
