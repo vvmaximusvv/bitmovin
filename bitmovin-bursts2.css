@@ -130,7 +130,6 @@
 	line-height: 1em;
 	opacity: 1;
 	padding: 0;
-        margin: 0
 	position: absolute;
 	-webkit-transition: opacity .3s, visibility 0s;
 	transition: opacity .3s, visibility 0s;
@@ -148,7 +147,7 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	margin: 0
+	margin: .5em 0
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-top .bmpui-ui-label {
@@ -156,7 +155,7 @@
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper>* {
-	margin: 0;
+	margin: 0 .5em
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom {
@@ -164,7 +163,7 @@
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider {
-	margin: 0;
+	margin: auto .5em;
 	width: 5em
 }
 
@@ -187,7 +186,7 @@
 
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider,
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper .bmpui-ui-volumeslider {
-	width: 100%
+	width: 10%
 }
 
 .bmpui-ui-airplaytogglebutton,
@@ -956,7 +955,7 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-thumbnail {
-	width: 0em
+	width: 0;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
@@ -1082,7 +1081,7 @@
 	border: .1875em solid #1fabe2;
 	border-radius: 50%;
 	height: .9375em;
-	left: -23.46875em;
+	left: -.46875em;
 	width: .9375em
 }
 
@@ -2905,6 +2904,9 @@
 }
 
 .bmpui-ui-playbacktimelabel {
+    display: none;
+}
+.bmpui-ui-seekbar{
     display: none;
 }
 
