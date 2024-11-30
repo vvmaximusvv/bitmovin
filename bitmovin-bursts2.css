@@ -37,7 +37,7 @@
 .bmpui-ui-recommendation-overlay,
 .bmpui-ui-replaybutton,
 .bmpui-ui-seekbar,
-.bmpui-ui-seekbar-label,
+-label,
 .bmpui-ui-selectbox,
 .bmpui-ui-settings-panel,
 .bmpui-ui-settingspanelpagebackbutton,
@@ -68,7 +68,7 @@
 .bmpui-ui-listbox,
 .bmpui-ui-playbacktoggle-overlay,
 .bmpui-ui-recommendation-overlay,
-.bmpui-ui-seekbar-label,
+-label,
 .bmpui-ui-settings-panel,
 .bmpui-ui-titlebar,
 .bmpui-ui-uicontainer,
@@ -908,7 +908,7 @@
 }
 
 .bmpui-ui-seekbar-label {
-	bottom: 100%;
+	bottom: 0;
 	left: 0;
 	margin-bottom: 1em;
 	opacity: 1;
@@ -1041,14 +1041,14 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop {
 	background-color: hsla(0, 0%, 100%, .2);
-	margin: auto 0;
+	margin: 0;
 	width: 100%
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
 	background-color: #fff;
-	margin: auto 0;
+	margin: 0;
 	-webkit-transition: .3s linear, .3s linear;
 	transition: .3s linear, .3s linear;
 	-webkit-transition-property: -webkit-transform;
@@ -1066,7 +1066,7 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	background-color: #1fabe2;
-	margin: auto 0;
+	margin: 0;
 	-webkit-transition: .1s linear, .1s linear;
 	transition: .1s linear, .1s linear;
 	-webkit-transition-property: -webkit-transform;
@@ -1081,7 +1081,7 @@
 	border: .1875em solid #1fabe2;
 	border-radius: 50%;
 	height: .9375em;
-	left: -.46875em;
+	left: -10.46875em;
 	width: .9375em
 }
 
