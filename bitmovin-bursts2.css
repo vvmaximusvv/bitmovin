@@ -128,7 +128,7 @@
 	bottom: 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	line-height: 1em;
+	line-height: 0.5em;
 	opacity: 1;
 	padding: 0;
 	position: absolute;
@@ -164,13 +164,13 @@
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider {
-	margin: auto .5em;
+	margin: 0em;
 	width: 5em
 }
 
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper,
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper {
-	border-spacing: .5em 0;
+	border-spacing: 0;
 	display: table
 }
 
@@ -226,7 +226,7 @@
 	font-size: 1em;
 	height: 1.5em;
 	min-width: 1.5em;
-	padding: .25em
+	padding: 0em
 }
 
 .bmpui-ui-airplaytogglebutton .bmpui-label,
@@ -746,12 +746,12 @@
 }
 
 .bmpui-ui-settings-panel>.bmpui-container-wrapper {
-	margin: .5em;
+	margin: .1em;
 	overflow-y: auto
 }
 
 .bmpui-ui-settings-panel>.bmpui-container-wrapper>* {
-	margin: 0 .5em
+	margin: 0 .1em
 }
 
 .bmpui-container-wrapper>.bmpui-ui-settings-panel {
@@ -779,7 +779,7 @@
 
 .bmpui-ui-settings-panel-page .bmpui-ui-settings-panel-item {
 	border-bottom: 1px solid hsla(0, 0%, 60%, .3);
-	padding: .5em 0;
+	padding: .1em 0;
 	white-space: nowrap
 }
 
@@ -858,7 +858,7 @@
 	color: #1fabe2;
 	cursor: pointer;
 	font-size: .8em;
-	padding: .3em
+	padding: .1em
 }
 
 .bmpui-ui-selectbox:focus {
@@ -888,7 +888,7 @@
 	font-size: .8em;
 	height: 100%;
 	min-width: 10em;
-	padding: .5em;
+	padding: .1em;
 	width: 100%
 }
 
@@ -1080,7 +1080,7 @@
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
 	background-color: rgba(31, 171, 226, .5);
 	border: 0em solid #1fabe2;
-	border-radius: 50%;
+	border-radius: 20%;
 	height: .5375em;
 	left: -20.46875em;
 	width: .9375em
@@ -1429,7 +1429,7 @@
 }
 
 .bmpui-ui-titlebar>.bmpui-container-wrapper {
-	padding: .5em;
+	padding: 0em;
 	pointer-events: none
 }
 
@@ -1482,7 +1482,7 @@
 }
 
 .bmpui-ui-recommendation-overlay>.bmpui-container-wrapper {
-	padding: 3em
+	padding: 2em
 }
 
 .bmpui-ui-recommendation-overlay a,
@@ -2258,7 +2258,7 @@
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontsize-50 .bmpui-ui-subtitle-label {
-	font-size: .5em
+	font-size: .2em
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontsize-75 .bmpui-ui-subtitle-label {
@@ -2353,7 +2353,7 @@
 .bmpui-ui-skin-ads .bmpui-ui-ads-status {
 	background-color: rgba(0, 0, 0, .7);
 	left: 1.5em;
-	padding: .5em 1.5em;
+	padding: .2em 1.0em;
 	position: absolute;
 	top: 1em
 }
@@ -2385,7 +2385,7 @@
 .bmpui-ui-skin-ads.bmpui-ui-skin-smallscreen .bmpui-ui-ads-status {
 	bottom: 0;
 	left: 0;
-	padding: 1em 1.5em;
+	padding: 0.5em 1em;
 	top: auto;
 	width: 100%
 }
@@ -2432,7 +2432,7 @@
 	display: -ms-inline-flexbox;
 	display: inline-flex;
 	line-height: 2em;
-	padding: .3em .5em;
+	padding: .1em .1em;
 	text-shadow: none
 }
 
@@ -2499,7 +2499,7 @@
 }
 
 .bmpui-ui-skin-smallscreen .bmpui-ui-settings-panel .bmpui-ui-closebutton {
-	margin: 2em;
+	margin: 1em;
 	position: absolute;
 	right: 0;
 	top: 0
@@ -2600,12 +2600,12 @@
 }
 
 .bmpui-ui-skin-tv .bmpui-ui-titlebar>.bmpui-container-wrapper {
-	margin: 2% 2% 2vh;
-	width: 96%
+	margin: 1% 1% 1vh;
+	width: 100%
 }
 
 .bmpui-ui-skin-tv .bmpui-ui-titlebar-top {
-	margin-bottom: 1vh
+	margin-bottom: 0vh
 }
 
 .bmpui-ui-skin-tv .bmpui-ui-titlebar-top>.bmpui-container-wrapper {
@@ -2668,7 +2668,7 @@
 }
 
 .bmpui-ui-skin-tv .bmpui-ui-controlbar>.bmpui-container-wrapper {
-	margin: 2% 0;
+	margin: 1% 0;
 	width: 99%
 }
 
@@ -2854,8 +2854,8 @@
 	animation: bmpui-fancy 2s ease-in infinite;
 	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st1{fill-rule:evenodd;clip-rule:evenodd;fill:%23e50038}%3C/style%3E%3Cpath class='st1' d='M8 8h16v16H8z' id='Rectangle_3_copy_3' style='opacity:.302'/%3E%3Cpath class='st1' d='M23 7H9c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 16H9V9h14v14z' id='Rectangle_2_copy_13'/%3E%3C/svg%3E") no-repeat 50%;
 	display: inline-block;
-	height: 2em;
-	margin: .2em;
+	height: 1em;
+	margin: .1em;
 	width: 2em
 }
 
