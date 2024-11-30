@@ -939,7 +939,7 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
-	border: .2em solid transparent;
+	border: 0;
 	border-top-color: #fff;
 	content: " ";
 	height: 0;
@@ -966,7 +966,7 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: block;
-	padding: .5em;
+	padding: 0;
 	position: absolute;
 	width: 100%
 }
