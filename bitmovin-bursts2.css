@@ -100,7 +100,7 @@
 .bmpui-ui-uicontainer.bmpui-player-state-playing.bmpui-controls-hidden * {
 	cursor: none
 }
-
+/*
 .bmpui-ui-uicontainer.bmpui-controls-shown .bmpui-ui-hugeplaybacktogglebutton:focus {
 	-webkit-box-shadow: inset -4px -3px 2px 9px #1b7fcc;
 	box-shadow: inset -4px -3px 2px 9px #1b7fcc
@@ -110,7 +110,7 @@
 	-webkit-box-shadow: none;
 	box-shadow: none
 }
-
+*/
 .bmpui-ui-uicontainer.bmpui-no-flexbox {
 	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=")
 }
