@@ -2934,9 +2934,38 @@
     display: none;
 }
 
+.bmpui-ui-seekbar {
+    height: 2px;                  /* Set a thin height */
+    width: 100%;                  /* Make it span the full width */
+    background-color: #e0e0e0;    /* Light gray background */
+    position: absolute;
+    bottom: 0;                    /* Stick to the bottom of the player */
+    left: 0;
+    z-index: 0;                  /* Ensure it stays above other elements */
+    border-radius: 0px;           /* Rounded corners for a sleek line */
+}
+
+/* Progress bar within the seek bar */
+.bmpui-seekbar-progress {
+    background-color: #ff0000;    /* Red color for progress (like YouTube) */
+    height: 100%;                 /* Match the seek bar height */
+    border-radius: 0px;           /* Rounded corners to match the seek bar */
+    transition: width 0.2s ease;  /* Smooth transition for progress updates */
+}
+
+/* Hide buffering track (optional) */
+.bmpui-seekbar-buffer {
+    display: none;                /* Remove buffering track for simplicity */
+}
+
+/* Hide labels or tooltips (optional) */
+.bmpui-ui-seekbar-label {
+    display: none;                /* Disable time markers or tooltips */
+}
+
 /* Hide the thumb (circle) */
 .bmpui-seekbar-thumb {
-    display: none;
+    display: none !important; /* Completely hide the draggable thumb */
 }
 
 .bmpui-ui-settingstogglebutton.bmpui-on {
