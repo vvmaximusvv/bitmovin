@@ -195,7 +195,7 @@
 .bmpui-ui-audiotracksettingstogglebutton,
 .bmpui-ui-button,
 .bmpui-ui-casttogglebutton,
-.bmpui-ui-clickoverlay,
+/*.bmpui-ui-clickoverlay,*/
 .bmpui-ui-closebutton,
 .bmpui-ui-ecomodetogglebutton,
 .bmpui-ui-fullscreentogglebutton,
@@ -234,7 +234,7 @@
 .bmpui-ui-audiotracksettingstogglebutton .bmpui-label,
 .bmpui-ui-button .bmpui-label,
 .bmpui-ui-casttogglebutton .bmpui-label,
-.bmpui-ui-clickoverlay .bmpui-label,
+/*.bmpui-ui-clickoverlay .bmpui-label,*/
 .bmpui-ui-closebutton .bmpui-label,
 .bmpui-ui-ecomodetogglebutton .bmpui-label,
 .bmpui-ui-fullscreentogglebutton .bmpui-label,
@@ -262,7 +262,7 @@
 .bmpui-disabled.bmpui-ui-audiotracksettingstogglebutton,
 .bmpui-disabled.bmpui-ui-button,
 .bmpui-disabled.bmpui-ui-casttogglebutton,
-.bmpui-disabled.bmpui-ui-clickoverlay,
+/*.bmpui-disabled.bmpui-ui-clickoverlay,*/
 .bmpui-disabled.bmpui-ui-closebutton,
 .bmpui-disabled.bmpui-ui-ecomodetogglebutton,
 .bmpui-disabled.bmpui-ui-fullscreentogglebutton,
@@ -293,8 +293,8 @@
 .bmpui-disabled.bmpui-ui-button>*,
 .bmpui-disabled.bmpui-ui-casttogglebutton,
 .bmpui-disabled.bmpui-ui-casttogglebutton>*,
-.bmpui-disabled.bmpui-ui-clickoverlay,
-.bmpui-disabled.bmpui-ui-clickoverlay>*,
+/*.bmpui-disabled.bmpui-ui-clickoverlay,
+.bmpui-disabled.bmpui-ui-clickoverlay>*,*/
 .bmpui-disabled.bmpui-ui-closebutton,
 .bmpui-disabled.bmpui-ui-closebutton>*,
 .bmpui-disabled.bmpui-ui-ecomodetogglebutton,
@@ -1592,7 +1592,7 @@
 	-webkit-transition: top .15s ease-in;
 	transition: top .15s ease-in
 }
-
+/*
 .bmpui-ui-clickoverlay {
 	height: 100%;
 	left: 0;
@@ -1600,6 +1600,7 @@
 	position: absolute;
 	top: 0;
 	width: 100%
+*/
 }
 
 .bmpui-ui-hugereplaybutton {
