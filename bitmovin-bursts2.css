@@ -540,14 +540,14 @@
 }
 
 .bmpui-ui-ecomodetogglebutton.bmpui-on {
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='33' height='32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect y='8' width='32' height='16' rx='8' fill='%23006AED'/%3E%3Cg filter='url(%23a)'%3E%3Ccircle cx='23.667' cy='16' r='6.667' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' x='15' y='7.333' width='17.334' height='17.333' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset/%3E%3CfeGaussianBlur stdDeviation='1'/%3E%3CfeColorMatrix values='0 0 0 0 0.796078 0 0 0 0 0.878431 0 0 0 0 0.929412 0 0 0 1 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_2_1649'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_2_1649' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='33' height='32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect y='8' width='32' height='16' rx='8' fill='%23006AED'/%3E%3Cg filter='url(%23a)'%3E%3Ccircle cx='23.667' cy='16' r='6.667' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' x='15' y='7.333' width='17.334' height='17.333' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset/%3E%3CfeGaussianBlur stdDeviation='1'/%3E%3CfeColorMatrix values='0 0 0 0 0.796078 0 0 0 0 0.878431 0 0 0 0 0.929412 0 0 0 1 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_2_1649'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_2_1649' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
 	background-position: 20px;
 	background-size: 45% auto;
 	margin-left: 2%
 }
 
 .bmpui-ui-ecomodetogglebutton.bmpui-off {
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='33' height='32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='8' width='32' height='16' rx='8' fill='%23868E96'/%3E%3Cg filter='url(%23a)'%3E%3Ccircle cx='8.667' cy='16' r='6.667' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' x='0' y='7.333' width='17.334' height='17.333' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset/%3E%3CfeGaussianBlur stdDeviation='1'/%3E%3CfeColorMatrix values='0 0 0 0 0.796078 0 0 0 0 0.878431 0 0 0 0 0.929412 0 0 0 1 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_2_1606'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_2_1606' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='33' height='32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='8' width='32' height='16' rx='8' fill='%23868E96'/%3E%3Cg filter='url(%23a)'%3E%3Ccircle cx='8.667' cy='16' r='6.667' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' x='0' y='7.333' width='17.334' height='17.333' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset/%3E%3CfeGaussianBlur stdDeviation='1'/%3E%3CfeColorMatrix values='0 0 0 0 0.796078 0 0 0 0 0.878431 0 0 0 0 0.929412 0 0 0 1 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_2_1606'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_2_1606' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
 	background-position: 20px;
 	background-size: 45% auto
 }
@@ -599,7 +599,7 @@
 		visibility: hidden
 	}
 }
-
+/*
 @keyframes bmpui-fade-out {
 	0% {
 		opacity: 1;
@@ -651,6 +651,7 @@
 		transform: scale(1)
 	}
 }
+*/
 
 @keyframes bmpui-breathe {
 	30% {
@@ -1694,7 +1695,7 @@
 }
 
 .bmpui-ui-buffering-overlay.bmpui-hidden {
-	opacity: 0;
+	opacity: 1;
 	-webkit-transition: opacity .6s, visibility .6s;
 	transition: opacity .6s, visibility .6s;
 	visibility: hidden
@@ -1719,7 +1720,7 @@
 	margin: .2em;
 	width: 2em
 }
-
+/*
 @-webkit-keyframes bmpui-fancy {
 	0% {
 		opacity: 0;
@@ -1775,6 +1776,7 @@
 		transform: scale(3)
 	}
 }
+*/
 
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator:first-child {
 	-webkit-animation-delay: 0s;
