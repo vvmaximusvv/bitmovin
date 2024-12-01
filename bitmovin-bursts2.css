@@ -923,6 +923,7 @@
 
 .bmpui-ui-seekbar-label.bmpui-hidden {
 	opacity: 0;
+	bottom: 0;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
 	visibility: hidden
@@ -931,11 +932,13 @@
 .bmpui-ui-seekbar-label>.bmpui-container-wrapper {
 	margin-left: -50%;
 	margin-right: 50%;
+	bottom: 0;
 	position: absolute
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
 	border-bottom: 0em solid #fff
+	bottom: 0;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
@@ -949,10 +952,12 @@
 	position: absolute;
 	top: 100%;
 	width: 0
+	bottom: 0;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper {
-	position: absolute
+	position: absolute;
+	bottom: 0;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-thumbnail {
@@ -973,12 +978,14 @@
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-time {
 	display: block;
-	line-height: .8em
+	bottom: 0;
+	line-height: .8em;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-title {
 	display: block;
 	margin-bottom: 0;
+	bottom: 0;
 	white-space: normal
 }
 
@@ -988,11 +995,13 @@
 	font-size: 1em;
 	height: 0.5em;
 	position: absolute;
+	bottom: 0;
 	width: 100%
 }
 
 .bmpui-hidden.bmpui-ui-seekbar,
 .bmpui-hidden.bmpui-ui-volumeslider {
+	bottom: 0;
 	display: none
 }
 
@@ -1000,11 +1009,13 @@
 .bmpui-ui-volumeslider:focus {
 	-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
 	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
+	bottom: 0;
 	outline: none
 }
 
 .bmpui-ui-seekbar:focus:not(.bmpui-focus-visible),
 .bmpui-ui-volumeslider:focus:not(.bmpui-focus-visible) {
+	bottom: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	outline: none
@@ -1043,6 +1054,7 @@
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop {
 	background-color: hsla(0, 0%, 100%, .2);
 	margin: 0;
+	bottom: 0;
 	width: 100%
 }
 
@@ -1055,12 +1067,14 @@
 	-webkit-transition-property: -webkit-transform;
 	transition-property: -webkit-transform;
 	transition-property: transform;
+	bottom: 0;
 	transition-property: transform, -webkit-transform
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	background-color: hsla(0, 0%, 100%, .2);
+	bottom: 0;
 	margin: auto 0
 }
 
@@ -1073,6 +1087,7 @@
 	-webkit-transition-property: -webkit-transform;
 	transition-property: -webkit-transform;
 	transition-property: transform;
+	bottom: 0;
 	transition-property: transform, -webkit-transform
 }
 
@@ -1083,11 +1098,13 @@
 	border-radius: 20%;
 	height: .5375em;
 	left: -20.46875em;
+	bottom: 0;
 	width: .9375em
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers {
+	bottom: 0;
 	height: .2625em
 }
 
@@ -1104,6 +1121,7 @@
 	transition-property: transform, -webkit-transform;
 	-webkit-transition-timing-function: linear;
 	transition-timing-function: linear;
+	bottom: 0;
 	width: 2px
 }
 
@@ -1112,6 +1130,7 @@
 	height: 1em;
 	position: absolute;
 	-webkit-transform: translate(-50%, calc(-100% - .2em));
+	bottom: 0;
 	transform: translate(-50%, calc(-100% - .2em))
 }
 
@@ -1120,12 +1139,14 @@
 .bmpui-seeking.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-seeking.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	-webkit-transition: none;
+	bottom: 0;
 	transition: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar {
 	height: 100%;
+	bottom: 0;
 	width: auto
 }
 
@@ -1138,6 +1159,7 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	right: 0;
+	bottom: 0;
 	top: auto
 }
 
@@ -1145,6 +1167,7 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker {
 	height: 0.5em;
 	top: -.5em;
+	bottom: 0;
 	width: 100%
 }
 
@@ -1152,6 +1175,7 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop {
 	height: 100%;
 	margin: 0 auto;
+	bottom: 0;
 	width: auto
 }
 
@@ -1159,6 +1183,7 @@
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
+	bottom: 0;
 	margin: 0 auto
 }
 
@@ -1167,6 +1192,7 @@
 	border: 0;
 	height: .6875em;
 	left: -.34375em;
+	bottom: 0;
 	width: .6875em
 }
 
