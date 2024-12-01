@@ -2947,7 +2947,7 @@
     position: absolute;
     bottom: 0;                    /* Stick to the bottom of the player */
     left: 0;
-    opacity: 0.8; 
+    opacity: 0.2; 
     z-index: 0;                  /* Ensure it stays above other elements */
     border-radius: 0px;           /* Rounded corners for a sleek line */
 }
@@ -2956,6 +2956,7 @@
 .bmpui-seekbar-progress {
     background-color: #a2a1a1;    /* Red color for progress (like YouTube) */
     height: 100%;                 /* Match the seek bar height */
+    opacity: 0.2; 
     border-radius: 0px;           /* Rounded corners to match the seek bar */
     transition: width 0.2s ease;  /* Smooth transition for progress updates */
 }
