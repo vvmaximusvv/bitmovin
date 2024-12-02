@@ -2967,14 +2967,24 @@ toggle-overlay,
     border-radius: 0px;           /* Rounded corners for a sleek line */
 }
 
-/* Progress bar within the seek bar */
-.bmpui-seekbar-progress {
-    background-color: #a2a1a1;    /* Red color for progress (like YouTube) */
-    height: 100%;                 /* Match the seek bar height */
-    border-radius: 0px;           /* Rounded corners to match the seek bar */
-    transition: width 0.2s ease;  /* Smooth transition for progress updates */
+.bmpui-ui-seekbar .bmpui-ui-progress {
+    height: 100%;                      
+    width: 50%;                        
+    background-color: #ff5722;         
+    position: absolute;                
+    left: 0;                           
+    border-radius: 4px;                
+    opacity: 1;                       
 }
 
+/*
+.bmpui-seekbar-progress {
+    background-color: #a2a1a1;    
+    height: 100%;                 
+    border-radius: 0px;           
+    transition: width 0.2s ease;  
+}
+*/
 /* Hide buffering track (optional) */
 .bmpui-seekbar-buffer {
     display: none;                /* Remove buffering track for simplicity */
