@@ -2789,6 +2789,9 @@ toggle-overlay,
    border-radius: 14px;
 }
 
+#bitmovin-player:active {
+  opacity: 0.8; /* Slight dim effect on tap */
+}
 
 .bitmovinplayer-container .bmpui-ui-watermark,
 .bitmovinplayer-container .bmpui-ui-loading-overlay {
