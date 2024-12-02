@@ -2844,12 +2844,12 @@ toggle-overlay,
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
-    background-color: #e50038;
+    background-color: #a2a1a1;
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    background-color: #e50038;
-    border-color: #e50038;
+    background-color: #a2a1a1;
+    border-color: #a2a1a1;
 }
 
 .bmpui-ui-titlebar > .bmpui-container-wrapper .bmpui-label-metadata-title {
@@ -2951,7 +2951,7 @@ toggle-overlay,
     position: absolute;
     bottom: 0;                    /* Stick to the bottom of the player */
     left: 0;
-    opacity: 0.2; 
+    opacity: 0.3; 
     z-index: 0;                  /* Ensure it stays above other elements */
     border-radius: 0px;           /* Rounded corners for a sleek line */
 }
