@@ -66,7 +66,7 @@
 .bmpui-ui-controlbar,
 .bmpui-ui-errormessage-overlay,
 .bmpui-ui-listbox,
-.bmpui-ui-playbacktoggle-overlay,
+toggle-overlay,
 .bmpui-ui-recommendation-overlay,
 -label,
 .bmpui-ui-settings-panel,
@@ -360,7 +360,8 @@
 .bmpui-disabled.bmpui-ui-watermark .bmpui-label:hover,
 .bmpui-ui-listbox .bmpui-disabled.bmpui-ui-listbox-button .bmpui-label:hover,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip .bmpui-label:hover {
-	text-decoration: none
+	text-decoration: none;
+	pointer-events: none;
 }
 
 .bmpui-hidden.bmpui-ui-airplaytogglebutton,
@@ -387,7 +388,8 @@
 .bmpui-hidden.bmpui-ui-watermark,
 .bmpui-ui-listbox .bmpui-hidden.bmpui-ui-listbox-button,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-hidden.bmpui-ui-button-ad-skip {
-	display: none
+	display: none;
+	pointer-events: none;
 }
 
 /*
@@ -415,8 +417,9 @@
 .bmpui-ui-volumetogglebutton:focus,
 .bmpui-ui-vrtogglebutton:focus,
 .bmpui-ui-watermark:focus {
-	-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
-	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
+	/*-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
+	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);*/
+	pointer-events: none;
 	outline: none
 }
 
@@ -446,6 +449,7 @@
 .bmpui-ui-watermark:focus:not(.bmpui-focus-visible) {
 	-webkit-box-shadow: none;
 	box-shadow: none;
+	pointer-events: none;
 	outline: none
 }
 */
@@ -2956,7 +2960,6 @@
 .bmpui-seekbar-progress {
     background-color: #a2a1a1;    /* Red color for progress (like YouTube) */
     height: 100%;                 /* Match the seek bar height */
-    opacity: 0.2; 
     border-radius: 0px;           /* Rounded corners to match the seek bar */
     transition: width 0.2s ease;  /* Smooth transition for progress updates */
 }
