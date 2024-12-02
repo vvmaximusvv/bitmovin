@@ -62,13 +62,13 @@
 
 .bmpui-ui-buffering-overlay,
 .bmpui-ui-cast-status-overlay,
-,
+.bmpui-ui-container,
 .bmpui-ui-controlbar,
 .bmpui-ui-errormessage-overlay,
 .bmpui-ui-listbox,
 toggle-overlay,
 .bmpui-ui-recommendation-overlay,
--label,
+.bmpui-ui-seekbar-label,
 .bmpui-ui-settings-panel,
 .bmpui-ui-titlebar,
 .bmpui-ui-uicontainer,
@@ -1211,6 +1211,7 @@ toggle-overlay,
 	height: .6875em;
 	left: -.34375em;
 	bottom: 0;
+	opacity: 0;
 	width: .6875em
 }
 
