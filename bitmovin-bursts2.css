@@ -1097,7 +1097,7 @@ toggle-overlay,
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	/*background-color: #1fabe2;*/
-	background-color: #ffffff;
+	background-color: #a2a1a1;
 	margin: 0;
 	-webkit-transition: .1s linear, .1s linear;
 	transition: .1s linear, .1s linear;
