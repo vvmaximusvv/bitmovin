@@ -736,6 +736,7 @@ toggle-overlay,
 .bmpui-ui-label-savedEnergy {
 	color: #1fabe2;
 	font-size: .8em;
+	opacity: 0;
 	margin-left: 2.2em
 }
 
@@ -874,6 +875,7 @@ toggle-overlay,
 	color: #1fabe2;
 	cursor: pointer;
 	font-size: .8em;
+	opacity: 0;
 	padding: .1em
 }
 
@@ -894,6 +896,7 @@ toggle-overlay,
 }
 
 .bmpui-ui-selectbox option:checked {
+	opacity: 0;
 	color: #1fabe2
 }
 
@@ -1117,6 +1120,7 @@ toggle-overlay,
 	height: .5375em;
 	left: -20.46875em;
 	bottom: 0;
+	opacity: 0;
 	width: .9375em
 }
 
@@ -2422,6 +2426,7 @@ toggle-overlay,
 	color: #1fabe2;
 	content: "●";
 	padding-left: .5em;
+	opacity: 0;
 	padding-right: .5em
 }
 
