@@ -2854,17 +2854,21 @@ toggle-overlay,
     opacity: 1;
 }
 
+/*
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
     background-color: #FFFFFF;
     opacity: 1
 }
+*/
 
+/*
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
     background-color: #a2a1a1;
     opacity: 1;
     border-color: #a2a1a1;
 }
+*/
 
 .bmpui-ui-titlebar > .bmpui-container-wrapper .bmpui-label-metadata-title {
     display: none;
