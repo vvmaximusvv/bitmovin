@@ -195,7 +195,7 @@ toggle-overlay,
 .bmpui-ui-audiotracksettingstogglebutton,
 .bmpui-ui-button,
 .bmpui-ui-casttogglebutton,
-/*.bmpui-ui-clickoverlay,*/
+.bmpui-ui-clickoverlay,
 .bmpui-ui-closebutton,
 .bmpui-ui-ecomodetogglebutton,
 .bmpui-ui-fullscreentogglebutton,
@@ -227,6 +227,7 @@ toggle-overlay,
 	font-size: 1em;
 	height: 1.5em;
 	min-width: 1.5em;
+	z-index: 1;
 	padding: 0em
 }
 
@@ -234,7 +235,7 @@ toggle-overlay,
 .bmpui-ui-audiotracksettingstogglebutton .bmpui-label,
 .bmpui-ui-button .bmpui-label,
 .bmpui-ui-casttogglebutton .bmpui-label,
-/*.bmpui-ui-clickoverlay .bmpui-label,*/
+.bmpui-ui-clickoverlay .bmpui-label,
 .bmpui-ui-closebutton .bmpui-label,
 .bmpui-ui-ecomodetogglebutton .bmpui-label,
 .bmpui-ui-fullscreentogglebutton .bmpui-label,
@@ -255,6 +256,7 @@ toggle-overlay,
 .bmpui-ui-vrtogglebutton .bmpui-label,
 .bmpui-ui-watermark .bmpui-label {
 	color: #fff;
+	z-index: 1;
 	display: none
 }
 
@@ -262,7 +264,7 @@ toggle-overlay,
 .bmpui-disabled.bmpui-ui-audiotracksettingstogglebutton,
 .bmpui-disabled.bmpui-ui-button,
 .bmpui-disabled.bmpui-ui-casttogglebutton,
-/*.bmpui-disabled.bmpui-ui-clickoverlay,*/
+.bmpui-disabled.bmpui-ui-clickoverlay,
 .bmpui-disabled.bmpui-ui-closebutton,
 .bmpui-disabled.bmpui-ui-ecomodetogglebutton,
 .bmpui-disabled.bmpui-ui-fullscreentogglebutton,
@@ -282,6 +284,7 @@ toggle-overlay,
 .bmpui-disabled.bmpui-ui-watermark,
 .bmpui-ui-listbox .bmpui-disabled.bmpui-ui-listbox-button,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip {
+	z-index: 1;
 	cursor: default
 }
 
@@ -293,8 +296,8 @@ toggle-overlay,
 .bmpui-disabled.bmpui-ui-button>*,
 .bmpui-disabled.bmpui-ui-casttogglebutton,
 .bmpui-disabled.bmpui-ui-casttogglebutton>*,
-/*.bmpui-disabled.bmpui-ui-clickoverlay,
-.bmpui-disabled.bmpui-ui-clickoverlay>*,*/
+.bmpui-disabled.bmpui-ui-clickoverlay,
+.bmpui-disabled.bmpui-ui-clickoverlay>*,
 .bmpui-disabled.bmpui-ui-closebutton,
 .bmpui-disabled.bmpui-ui-closebutton>*,
 .bmpui-disabled.bmpui-ui-ecomodetogglebutton,
@@ -333,6 +336,7 @@ toggle-overlay,
 .bmpui-ui-listbox .bmpui-disabled.bmpui-ui-listbox-button>*,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip>* {
+	z-index: 1;
 	pointer-events: none
 }
 
@@ -340,7 +344,7 @@ toggle-overlay,
 .bmpui-disabled.bmpui-ui-audiotracksettingstogglebutton .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-button .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-casttogglebutton .bmpui-label:hover,
-/*.bmpui-disabled.bmpui-ui-clickoverlay .bmpui-label:hover,*/
+.bmpui-disabled.bmpui-ui-clickoverlay .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-closebutton .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-ecomodetogglebutton .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-fullscreentogglebutton .bmpui-label:hover,
@@ -360,6 +364,7 @@ toggle-overlay,
 .bmpui-disabled.bmpui-ui-watermark .bmpui-label:hover,
 .bmpui-ui-listbox .bmpui-disabled.bmpui-ui-listbox-button .bmpui-label:hover,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip .bmpui-label:hover {
+	z-index: 1;
 	text-decoration: none;
 	pointer-events: none;
 }
@@ -368,7 +373,7 @@ toggle-overlay,
 .bmpui-hidden.bmpui-ui-audiotracksettingstogglebutton,
 .bmpui-hidden.bmpui-ui-button,
 .bmpui-hidden.bmpui-ui-casttogglebutton,
-/*.bmpui-hidden.bmpui-ui-clickoverlay,*/
+.bmpui-hidden.bmpui-ui-clickoverlay,
 .bmpui-hidden.bmpui-ui-closebutton,
 .bmpui-hidden.bmpui-ui-ecomodetogglebutton,
 .bmpui-hidden.bmpui-ui-fullscreentogglebutton,
@@ -388,6 +393,7 @@ toggle-overlay,
 .bmpui-hidden.bmpui-ui-watermark,
 .bmpui-ui-listbox .bmpui-hidden.bmpui-ui-listbox-button,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-hidden.bmpui-ui-button-ad-skip {
+	z-index: 1;
 	display: none;
 	pointer-events: none;
 }
@@ -397,7 +403,7 @@ toggle-overlay,
 .bmpui-ui-audiotracksettingstogglebutton:focus,
 .bmpui-ui-button:focus,
 .bmpui-ui-casttogglebutton:focus,
-/*.bmpui-ui-clickoverlay:focus,*/
+.bmpui-ui-clickoverlay:focus,
 .bmpui-ui-closebutton:focus,
 .bmpui-ui-ecomodetogglebutton:focus,
 .bmpui-ui-fullscreentogglebutton:focus,
@@ -420,6 +426,7 @@ toggle-overlay,
 	/*-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
 	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);*/
 	pointer-events: none;
+	z-index: 1;
 	outline: none
 }
 
@@ -427,7 +434,7 @@ toggle-overlay,
 .bmpui-ui-audiotracksettingstogglebutton:focus:not(.bmpui-focus-visible),
 .bmpui-ui-button:focus:not(.bmpui-focus-visible),
 .bmpui-ui-casttogglebutton:focus:not(.bmpui-focus-visible),
-/*.bmpui-ui-clickoverlay:focus:not(.bmpui-focus-visible),*/
+.bmpui-ui-clickoverlay:focus:not(.bmpui-focus-visible),
 .bmpui-ui-closebutton:focus:not(.bmpui-focus-visible),
 .bmpui-ui-ecomodetogglebutton:focus:not(.bmpui-focus-visible),
 .bmpui-ui-fullscreentogglebutton:focus:not(.bmpui-focus-visible),
@@ -450,6 +457,7 @@ toggle-overlay,
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	pointer-events: none;
+	z-index: 1;
 	outline: none
 }
 */
@@ -2958,7 +2966,7 @@ toggle-overlay,
 
 /* Progress bar within the seek bar */
 .bmpui-seekbar-progress {
-    background-color: #a2a1a1;    /* Red color for progress (like YouTube) */
+    background-color: #fff;    /* Red color for progress (like YouTube) */
     height: 100%;                 /* Match the seek bar height */
     border-radius: 0px;           /* Rounded corners to match the seek bar */
     transition: width 0.2s ease;  /* Smooth transition for progress updates */
