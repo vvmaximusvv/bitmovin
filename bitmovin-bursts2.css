@@ -2859,8 +2859,8 @@ toggle-overlay,
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    background-color: #fff;
-    border-color: #fff;
+    background-color: #a2a1a1;
+    border-color: #a2a1a1;
 }
 
 .bmpui-ui-titlebar > .bmpui-container-wrapper .bmpui-label-metadata-title {
