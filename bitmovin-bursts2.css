@@ -2852,12 +2852,12 @@ toggle-overlay,
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
-    background-color: #a2a1a1;
+    background-color: #fff;
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    background-color: #a2a1a1;
-    border-color: #a2a1a1;
+    background-color: #fff;
+    border-color: #fff;
 }
 
 .bmpui-ui-titlebar > .bmpui-container-wrapper .bmpui-label-metadata-title {
