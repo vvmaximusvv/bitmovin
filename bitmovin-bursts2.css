@@ -1096,7 +1096,8 @@ toggle-overlay,
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
-	background-color: #1fabe2;
+	/*background-color: #1fabe2;*/
+	background-color: #ffffff;
 	margin: 0;
 	-webkit-transition: .1s linear, .1s linear;
 	transition: .1s linear, .1s linear;
@@ -2864,7 +2865,7 @@ toggle-overlay,
 
 /*
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    background-color: #a2a1a1;
+     #a2a1a1;
     opacity: 1;
     border-color: #a2a1a1;
 }
@@ -2965,11 +2966,11 @@ toggle-overlay,
 .bmpui-ui-seekbar {
     height: 4px;                  /* Set a thin height */
     width: 100%;                  /* Make it span the full width */
-    background-color: #e0e0e0;    /* Light gray background */
+    background-color: #c7c7c7;    /* Light gray background */
     position: absolute;
     bottom: 0;                    /* Stick to the bottom of the player */
     left: 0;
-    opacity: 1; 
+    opacity: 0.6; 
     z-index: 0;                  /* Ensure it stays above other elements */
     border-radius: 0px;           /* Rounded corners for a sleek line */
 }
