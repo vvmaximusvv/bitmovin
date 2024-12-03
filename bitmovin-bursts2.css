@@ -2980,6 +2980,9 @@ toggle-overlay,
     opacity: 0.6; 
     z-index: 0;                  /* Ensure it stays above other elements */
     border-radius: 0px;           /* Rounded corners for a sleek line */
+    box-shadow: none; /* Removes any box shadow */
+    filter: none; /* Removes any filter that might simulate a shadow */
+    border: none; /* Ensures no border appears like a shadow */
 }
 
 .bmpui-ui-seekbar .bmpui-ui-progress {
