@@ -888,11 +888,10 @@ toggle-overlay,
 	box-shadow: none;
 	outline: none
 }
-/*
+
 .bmpui-ui-selectbox option {
 	color: #999
 }
-*/
 
 .bmpui-ui-selectbox option:checked {
 	opacity: 0;
@@ -1484,7 +1483,7 @@ toggle-overlay,
 .bmpui-ui-titlebar>.bmpui-container-wrapper .bmpui-label-metadata {
 	pointer-events: none
 }
-/*
+
 .bmpui-ui-titlebar>.bmpui-container-wrapper .bmpui-label-metadata-title {
 	cursor: default;
 	display: block;
@@ -1492,8 +1491,7 @@ toggle-overlay,
 	text-shadow: 0 0 5px #000;
 	white-space: normal
 }
-*/
-/*
+
 .bmpui-ui-titlebar>.bmpui-container-wrapper .bmpui-label-metadata-description {
 	color: #e6e6e6;
 	cursor: default;
@@ -1501,7 +1499,6 @@ toggle-overlay,
 	text-shadow: 0 0 5px #000;
 	white-space: normal
 }
-*/
 
 .bmpui-ui-recommendation-overlay {
 	background-color: rgba(8, 43, 57, .7);
@@ -1557,7 +1554,7 @@ toggle-overlay,
 	overflow: hidden;
 	position: relative;
 	text-align: left;
-	/*text-shadow: 0 0 3px #111;*/
+	text-shadow: 0 0 3px #111;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: -webkit-transform .15s ease-out;
@@ -2342,23 +2339,19 @@ toggle-overlay,
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-raised .bmpui-ui-subtitle-label {
-	/*text-shadow: 0 0 4px rgba(0, 0, 0, .9), 0 1px 4px rgba(0, 0, 0, .9), 0 2px 4px rgba(0, 0, 0, .9)*/
-	text-shadow: none
+	text-shadow: 0 0 4px rgba(0, 0, 0, .9), 0 1px 4px rgba(0, 0, 0, .9), 0 2px 4px rgba(0, 0, 0, .9)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-depressed .bmpui-ui-subtitle-label {
-	/*text-shadow: rgba(0, 0, 0, .8) 0 -2px 1px*/
-	text-shadow: none
+	text-shadow: rgba(0, 0, 0, .8) 0 -2px 1px
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-uniform .bmpui-ui-subtitle-label {
-	/*text-shadow: -2px 0 1px rgba(0, 0, 0, .8), 2px 0 1px rgba(0, 0, 0, .8), 0 -2px 1px rgba(0, 0, 0, .8), 0 2px 1px rgba(0, 0, 0, .8), -1px 1px 1px rgba(0, 0, 0, .8), 1px 1px 1px rgba(0, 0, 0, .8), 1px -1px 1px rgba(0, 0, 0, .8), 1px 1px 1px rgba(0, 0, 0, .8)*/
-	text-shadow: none
+	text-shadow: -2px 0 1px rgba(0, 0, 0, .8), 2px 0 1px rgba(0, 0, 0, .8), 0 -2px 1px rgba(0, 0, 0, .8), 0 2px 1px rgba(0, 0, 0, .8), -1px 1px 1px rgba(0, 0, 0, .8), 1px 1px 1px rgba(0, 0, 0, .8), 1px -1px 1px rgba(0, 0, 0, .8), 1px 1px 1px rgba(0, 0, 0, .8)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-dropshadowed .bmpui-ui-subtitle-label {
-	/*text-shadow: 0 2px 1px rgba(0, 0, 0, .8)*/
-	text-shadow: none
+	text-shadow: 0 2px 1px rgba(0, 0, 0, .8)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontfamily-monospacedserif .bmpui-ui-subtitle-label {
@@ -2833,9 +2826,6 @@ toggle-overlay,
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-seekbar {
     background-color: #444;
-    box-shadow: none; /* Removes any box shadow */
-    filter: none; /* Removes any filter that might simulate a shadow */
-    border: none; /* Ensures no border appears like a shadow */
 }
 
 .bitmovinplayer-container
@@ -2843,9 +2833,6 @@ toggle-overlay,
 .bmpui-seekbar
 .bmpui-seekbar-playback {
     background-color: #e50038;
-    box-shadow: none; /* Removes any box shadow */
-    filter: none; /* Removes any filter that might simulate a shadow */
-    border: none; /* Ensures no border appears like a shadow */
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-time-label {
@@ -2866,9 +2853,6 @@ toggle-overlay,
 .bmpui-volumebutton {
     background-color: transparent;
     border: none;
-    box-shadow: none; /* Removes any box shadow */
-    filter: none; /* Removes any filter that might simulate a shadow */
-    border: none; /* Ensures no border appears like a shadow */
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
