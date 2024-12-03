@@ -129,7 +129,7 @@
 	box-sizing: border-box;
 	line-height: 1em;
 	opacity: 1;
-	padding: 1em 1em .5em;
+	padding: 0;
 	position: absolute;
 	-webkit-transition: opacity .3s, visibility 0s;
 	transition: opacity .3s, visibility 0s;
@@ -928,7 +928,7 @@
 .bmpui-ui-seekbar-label>.bmpui-container-wrapper {
 	margin-left: -50%;
 	margin-right: 50%;
-	position: relative
+	position: absolute
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
@@ -949,7 +949,7 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper {
-	position: relative
+	position: absolute
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-thumbnail {
@@ -1027,7 +1027,7 @@
 	box-sizing: border-box;
 	height: .3125em;
 	left: 0;
-	margin: auto;
+	margin: 0;
 	position: absolute;
 	right: auto;
 	top: 0;
