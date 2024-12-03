@@ -2833,6 +2833,9 @@ toggle-overlay,
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-seekbar {
     background-color: #444;
+    box-shadow: none; /* Removes any box shadow */
+    filter: none; /* Removes any filter that might simulate a shadow */
+    border: none; /* Ensures no border appears like a shadow */
 }
 
 .bitmovinplayer-container
@@ -2840,6 +2843,9 @@ toggle-overlay,
 .bmpui-seekbar
 .bmpui-seekbar-playback {
     background-color: #e50038;
+    box-shadow: none; /* Removes any box shadow */
+    filter: none; /* Removes any filter that might simulate a shadow */
+    border: none; /* Ensures no border appears like a shadow */
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-time-label {
@@ -2860,6 +2866,9 @@ toggle-overlay,
 .bmpui-volumebutton {
     background-color: transparent;
     border: none;
+    box-shadow: none; /* Removes any box shadow */
+    filter: none; /* Removes any filter that might simulate a shadow */
+    border: none; /* Ensures no border appears like a shadow */
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
