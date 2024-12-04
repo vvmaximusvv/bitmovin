@@ -2804,7 +2804,8 @@
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-seekbar {
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
+    background-color: transparent;
 }
 
 .bitmovinplayer-container
