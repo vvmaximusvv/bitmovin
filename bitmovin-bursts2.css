@@ -852,7 +852,7 @@
 .bmpui-ui-selectbox {
 	background-color: transparent;
 	border: 0;
-	color: #1fabe2;
+	color: #c7c7c7;
 	cursor: pointer;
 	font-size: .8em;
 	padding: .1em
@@ -875,7 +875,7 @@
 }
 
 .bmpui-ui-selectbox option:checked {
-	color: #1fabe2
+	color: #c7c7c7
 }
 
 .bmpui-ui-listbox .bmpui-ui-listbox-button {
@@ -1173,7 +1173,7 @@
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-	background-color: #1fabe2;
+	background-color: #c7c7c7;
 	border: 0;
 	height: .6875em;
 	left: -.34375em;
@@ -1898,10 +1898,11 @@
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-white25 .bmpui-ui-subtitle-label {
 	color: hsla(0, 0%, 100%, .25)
 }
-
+/*
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-black100 .bmpui-ui-subtitle-label {
 	color: #000
 }
+*/
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-black75 .bmpui-ui-subtitle-label {
 	color: rgba(0, 0, 0, .75)
@@ -2382,7 +2383,8 @@
 }
 
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-button-ad-skip:before {
-	color: #1fabe2;
+	/*color: #1fabe2;*/
+	color: #c7c7c7;
 	content: "●";
 	padding-left: .5em;
 	padding-right: .5em
@@ -2921,7 +2923,7 @@
 }
 
 .bmpui-ui-seekbar {
-    height: 4px;                  /* Set a thin height */
+    height: 5px;                  /* Set a thin height */
     width: 100%;                  /* Make it span the full width */
     background-color: #c7c7c7;    /* Light gray background */
     position: absolute;
