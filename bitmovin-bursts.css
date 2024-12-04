@@ -116,7 +116,7 @@
 
 .bmpui-ui-uicontainer.bmpui-no-flexbox.bmpui-fullscreen {
 	left: 0;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	z-index: 999999
 }
@@ -129,7 +129,7 @@
 	box-sizing: border-box;
 	line-height: 1em;
 	opacity: 1;
-	padding: 1em 1em .5em;
+	padding: 0;
 	position: absolute;
 	-webkit-transition: opacity .3s, visibility 0s;
 	transition: opacity .3s, visibility 0s;
@@ -137,9 +137,7 @@
 }
 
 .bmpui-ui-controlbar.bmpui-hidden {
-	opacity: 0;
-	-webkit-transition: opacity .3s;
-	transition: opacity .3s
+	opacity: 1;
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper,
@@ -147,7 +145,7 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	margin: .5em 0
+	margin: 0
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-top .bmpui-ui-label {
@@ -155,7 +153,7 @@
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper>* {
-	margin: 0 .5em
+	margin: 0
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom {
@@ -163,13 +161,13 @@
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider {
-	margin: auto .5em;
+	margin: 0;
 	width: 5em
 }
 
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper,
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper {
-	border-spacing: .5em 0;
+	border-spacing: 0;
 	display: table
 }
 
@@ -225,7 +223,7 @@
 	font-size: 1em;
 	height: 1.5em;
 	min-width: 1.5em;
-	padding: .25em
+	padding: 0
 }
 
 .bmpui-ui-airplaytogglebutton .bmpui-label,
@@ -542,7 +540,7 @@
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='33' height='32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect y='8' width='32' height='16' rx='8' fill='%23006AED'/%3E%3Cg filter='url(%23a)'%3E%3Ccircle cx='23.667' cy='16' r='6.667' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' x='15' y='7.333' width='17.334' height='17.333' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset/%3E%3CfeGaussianBlur stdDeviation='1'/%3E%3CfeColorMatrix values='0 0 0 0 0.796078 0 0 0 0 0.878431 0 0 0 0 0.929412 0 0 0 1 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_2_1649'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_2_1649' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
 	background-position: 20px;
 	background-size: 45% auto;
-	margin-left: 2%
+	margin-left: 0%
 }
 
 .bmpui-ui-ecomodetogglebutton.bmpui-off {
@@ -565,7 +563,7 @@
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 68 68' style='enable-background:new 0 0 68 68' xml:space='preserve'%3E%3Cpath d='M63.3 32.5 24.3 5v13.4l20.4 14.5c.8.6.8 1.8 0 2.4L24.3 49.6V63l39-27.5c.9-.8.9-2.2 0-3zm-25.3 0L12.8 14.7V25l11.1 7.9c.8.6.8 1.8 0 2.4L12.8 43v10.3L38 35.5c1-.8 1-2.2 0-3zm-20.8.1L4 23.2v6.5l4.5 3.2c.8.6.8 1.8 0 2.4L4 38.4v6.5l13.2-9.4c1-.8 1-2.2 0-2.9z' style='fill-rule:evenodd;clip-rule:evenodd;fill:%231fabe2'/%3E%3C/svg%3E");
 	background-size: initial;
 	height: 4em;
-	margin: 2em;
+	margin: 0;
 	opacity: .8;
 	position: absolute;
 	right: 0;
@@ -717,9 +715,9 @@
 }
 
 .bmpui-ui-label-savedEnergy {
-	color: #1fabe2;
+	color: #c7c7c7;
 	font-size: .8em;
-	margin-left: 2.2em
+	margin-left: 0
 }
 
 .bmpui-ui-settings-panel {
@@ -745,12 +743,12 @@
 }
 
 .bmpui-ui-settings-panel>.bmpui-container-wrapper {
-	margin: .5em;
+	margin: 0;
 	overflow-y: auto
 }
 
 .bmpui-ui-settings-panel>.bmpui-container-wrapper>* {
-	margin: 0 .5em
+	margin: 0
 }
 
 .bmpui-container-wrapper>.bmpui-ui-settings-panel {
@@ -772,13 +770,13 @@
 }
 
 .bmpui-ui-settings-panel-page .bmpui-container-wrapper>.bmpui-ui-selectbox {
-	margin-left: 10%;
+	margin-left: 0%;
 	width: 45%
 }
 
 .bmpui-ui-settings-panel-page .bmpui-ui-settings-panel-item {
 	border-bottom: 1px solid hsla(0, 0%, 60%, .3);
-	padding: .5em 0;
+	padding: 0;
 	white-space: nowrap
 }
 
@@ -793,7 +791,7 @@
 .bmpui-ui-settingspanelpageopenbutton {
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cpath d='m25.6 13.8-1.4-.3c-.2-.5-.4-1-.6-1.4l.9-1.3c.4-.5.3-1.3-.1-1.7L23 7.7c-.3-.3-.6-.4-1-.4-.3 0-.6.1-.8.3l-1.2.9c-.5-.3-1-.5-1.5-.6l-.3-1.4c0-.6-.6-1.1-1.3-1.1H15c-.7 0-1.2.5-1.3 1.1L13.5 8c-.5.2-1 .4-1.4.6l-1.3-.9c-.2-.2-.5-.3-.8-.3-.4 0-.7.1-1 .4L7.8 9.1c-.5.5-.5 1.2-.1 1.7l.9 1.3c-.3.5-.5 1-.6 1.4l-1.4.3c-.7 0-1.2.6-1.2 1.3V17c0 .7.5 1.2 1.1 1.3l1.5.2c.2.5.4 1 .6 1.4l-.9 1.3c-.4.5-.3 1.3.1 1.7l1.4 1.4c.3.3.6.4 1 .4.3 0 .6-.1.8-.3l1.3-.9c.5.2 1 .4 1.4.6l.3 1.4c.1.7.7 1.1 1.3 1.1H17c.7 0 1.2-.5 1.3-1.1l.3-1.4c.5-.2 1-.4 1.4-.6l1.3.9c.2.2.5.3.8.3.4 0 .7-.1 1-.4l1.4-1.4c.5-.5.5-1.2.1-1.7L23.5 20c.3-.5.5-1 .6-1.4l1.4-.3c.7-.1 1.1-.7 1.1-1.3v-2c0-.5-.5-1.1-1-1.2zm-1 3.1c0 .1 0 .1 0 0l-1.8.4c-.2 0-.4.2-.4.4-.2.6-.4 1.2-.7 1.6-.1.2-.1.4 0 .6l1 1.4v.1l-1.2 1.2h-.2l-1.4-1c-.2-.1-.4-.1-.6 0-.5.3-1.1.6-1.6.7-.2.1-.4.2-.4.4l-.3 1.8c0 .1-.1.1-.1.1h-1.7c-.1 0-.1 0-.1-.1l-.3-1.7c0-.2-.2-.4-.4-.4-.6-.2-1.2-.4-1.6-.7-.1 0-.2-.1-.3-.1-.1 0-.2 0-.3.1l-1.4 1h-.2l-1.2-1.2v-.1l1-1.4c.1-.2.1-.4 0-.6-.4-.4-.7-1-.8-1.6-.1-.2-.2-.4-.4-.4L7.5 17c-.1 0-.1-.1-.1-.1v-1.7c0-.1 0-.1.1-.1l1.7-.2c.2 0 .4-.2.5-.4.2-.6.4-1.2.7-1.6.1-.2.1-.4 0-.6l-1-1.4v-.1l1.2-1.2h.2l1.4 1c.2.1.4.1.6 0 .5-.3 1.1-.6 1.6-.7.2-.1.4-.2.4-.4l.2-2c0-.1.1-.1.1-.1h1.7c.1 0 .1 0 .1.1l.2 1.7c0 .2.2.4.4.5.6.2 1.2.4 1.7.7.2.1.4.1.6 0l1.4-1h.2l1.2 1.2v.1l-1 1.4c-.1.2-.1.4 0 .6.3.5.6 1.1.7 1.6.1.2.2.4.4.4l1.6.3c.1 0 .1.1.1.1v1.8h.2zM16 11.5c-2.5 0-4.5 2-4.5 4.5s2 4.5 4.5 4.5 4.5-2 4.5-4.5-2-4.5-4.5-4.5zm0 7.3c-1.5 0-2.8-1.3-2.8-2.8s1.3-2.8 2.8-2.8 2.8 1.3 2.8 2.8-1.3 2.8-2.8 2.8z' style='fill:%23fff'/%3E%3C/svg%3E");
 	max-height: .8em;
-	padding: .3em 0;
+	padding: 0;
 	vertical-align: bottom
 }
 
@@ -821,7 +819,7 @@
 	border-left: .2em solid #fff;
 	content: "";
 	height: .6em;
-	margin-left: -.8em;
+	margin-left: 0;
 	position: absolute;
 	top: .6em;
 	-webkit-transform: rotate(45deg);
@@ -854,10 +852,10 @@
 .bmpui-ui-selectbox {
 	background-color: transparent;
 	border: 0;
-	color: #1fabe2;
+	color: #ffffff;
 	cursor: pointer;
 	font-size: .8em;
-	padding: .3em
+	padding: 0
 }
 
 .bmpui-ui-selectbox:focus {
@@ -877,7 +875,7 @@
 }
 
 .bmpui-ui-selectbox option:checked {
-	color: #1fabe2
+	color: #ffffff
 }
 
 .bmpui-ui-listbox .bmpui-ui-listbox-button {
@@ -887,14 +885,14 @@
 	font-size: .8em;
 	height: 100%;
 	min-width: 10em;
-	padding: .5em;
+	padding: 0;
 	width: 100%
 }
 
 .bmpui-ui-listbox .bmpui-ui-listbox-button .bmpui-label {
 	display: inherit
 }
-
+/*
 .bmpui-ui-listbox .bmpui-ui-listbox-button.bmpui-selected {
 	background-color: rgba(31, 171, 226, .7)
 }
@@ -902,15 +900,17 @@
 .bmpui-ui-listbox .bmpui-ui-listbox-button:hover {
 	background-color: rgba(31, 171, 226, .85)
 }
+*/
 
 .bmpui-ui-listbox .bmpui-ui-listbox-button:last-child {
 	border-bottom: 0
 }
 
 .bmpui-ui-seekbar-label {
-	bottom: 100%;
+	background-color: transparent;
+	bottom: 0;
 	left: 0;
-	margin-bottom: 1em;
+	margin-bottom: 0;
 	opacity: 1;
 	pointer-events: none;
 	position: absolute;
@@ -922,76 +922,97 @@
 
 .bmpui-ui-seekbar-label.bmpui-hidden {
 	opacity: 0;
+	bottom: 0;
+	background-color: transparent;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
 	visibility: hidden
 }
 
 .bmpui-ui-seekbar-label>.bmpui-container-wrapper {
-	margin-left: -50%;
-	margin-right: 50%;
-	position: relative
+	margin-left: 0;
+	margin-right: 0;
+	bottom: 0;
+	background-color: transparent;
+	position: absolute
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
-	border-bottom: .2em solid #fff
+	border-bottom: 0em solid #fff
+	background-color: transparent;
+	bottom: 0;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
-	border: .5em solid transparent;
-	border-top-color: #fff;
+	border: 0;
+	border-top-color: #ffffff;
+	background-color: transparent;
 	content: " ";
 	height: 0;
-	left: 50%;
-	margin-left: -.5em;
+	left: 0;
+	margin-left: 0;
 	pointer-events: none;
 	position: absolute;
 	top: 100%;
-	width: 0
+	width: 0;
+	bottom: 0
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper {
-	position: relative
+	position: absolute;
+	background-color: transparent;
+	bottom: 0;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-thumbnail {
-	width: 6em
+	display: none;
+	background-color: transparent;
+	width: 0
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
-	background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, .7)));
-	background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .7));
+	/*background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, .7)));
+	background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .7));*/
+	background-color: transparent;
 	bottom: 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: block;
-	padding: .5em;
+	padding: 0;
 	position: absolute;
 	width: 100%
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-time {
 	display: block;
+	background-color: transparent;
+	bottom: 0;
 	line-height: .8em
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-title {
 	display: block;
-	margin-bottom: .3em;
+	background-color: transparent;
+	margin-bottom: 0;
+	bottom: 0;
 	white-space: normal
 }
 
 .bmpui-ui-seekbar,
 .bmpui-ui-volumeslider {
 	cursor: pointer;
+	background-color: transparent;
 	font-size: 1em;
-	height: 1em;
+	height: 0.5em;
 	position: relative;
+	bottom: 0;
 	width: 100%
 }
 
 .bmpui-hidden.bmpui-ui-seekbar,
 .bmpui-hidden.bmpui-ui-volumeslider {
+	bottom: 0;
+	background-color: transparent;
 	display: none
 }
 
@@ -999,11 +1020,14 @@
 .bmpui-ui-volumeslider:focus {
 	-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
 	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
+	background-color: transparent;
 	outline: none
 }
 
 .bmpui-ui-seekbar:focus:not(.bmpui-focus-visible),
 .bmpui-ui-volumeslider:focus:not(.bmpui-focus-visible) {
+	bottom: 0;
+	background-color: transparent;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	outline: none
@@ -1024,11 +1048,12 @@
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	bottom: 0;
+	background-color: transparent;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	height: .3125em;
+	height: .2125em;
 	left: 0;
-	margin: auto;
+	margin: 0;
 	position: absolute;
 	right: auto;
 	top: 0;
@@ -1040,33 +1065,43 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop {
-	background-color: hsla(0, 0%, 100%, .2);
-	margin: auto 0;
+	/*background-color: hsla(0, 0%, 100%, .2);*/
+	background-color: transparent;
+	margin: 0;
+	bottom: 0;
 	width: 100%
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-	background-color: #fff;
+	/*background-color: #fff;*/
+	background-color: transparent
 	margin: auto 0;
 	-webkit-transition: .3s linear, .3s linear;
 	transition: .3s linear, .3s linear;
 	-webkit-transition-property: -webkit-transform;
 	transition-property: -webkit-transform;
 	transition-property: transform;
+	bottom: 0;
 	transition-property: transform, -webkit-transform
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
-	background-color: hsla(0, 0%, 100%, .2);
+	/*background-color: hsla(0, 0%, 100%, .2);*/
+	background-color: transparent;
+	bottom: 0;
 	margin: auto 0
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
-	background-color: #1fabe2;
-	margin: auto 0;
+	/*background-color: #1fabe2;*/
+	background-color: #ffffff;
+	opacity: 1;
+	margin: 0;
+	bottom: 0;
+	height: 4px;
 	-webkit-transition: .1s linear, .1s linear;
 	transition: .1s linear, .1s linear;
 	-webkit-transition-property: -webkit-transform;
@@ -1077,22 +1112,27 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-	background-color: rgba(31, 171, 226, .5);
-	border: .1875em solid #1fabe2;
-	border-radius: 50%;
-	height: .9375em;
+	background-color: transparent;
+	border: transparent;
+	border-radius: 0;
+	height: .5375em;
 	left: -.46875em;
+	bottom: 0;
+	opacity: 0;
 	width: .9375em
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers {
-	height: .5625em
+	background-color: transparent;
+	bottom: 0;
+	height: .2625em
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker {
 	background-color: #fff;
+	/*background-color: transparent;*/
 	height: 100%;
 	text-align: center;
 	-webkit-transition-duration: 1s;
@@ -1103,13 +1143,16 @@
 	transition-property: transform, -webkit-transform;
 	-webkit-transition-timing-function: linear;
 	transition-timing-function: linear;
+	bottom: 0;
 	width: 2px
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image {
-	height: 1.25em;
+	height: 0;
+	background-color: transparent;
 	position: absolute;
+	bottom: 0;
 	-webkit-transform: translate(-50%, calc(-100% - .2em));
 	transform: translate(-50%, calc(-100% - .2em))
 }
@@ -1119,12 +1162,16 @@
 .bmpui-seeking.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-seeking.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	-webkit-transition: none;
+	background-color: transparent;
+	bottom: 0;
 	transition: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar {
+	background-color: transparent;
 	height: 100%;
+	bottom: 0;
 	width: auto
 }
 
@@ -1136,21 +1183,26 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
+	background-color: transparent;
 	right: 0;
 	top: auto
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker {
-	height: 1em;
+	background-color: transparent;
+	height: 0;
 	top: -.5em;
+	bottom: 0;
 	width: 100%
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop {
+	background-color: transparent;
 	height: 100%;
 	margin: 0 auto;
+	bottom: 0;
 	width: auto
 }
 
@@ -1158,18 +1210,23 @@
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
+	background-color: transparent;
 	margin: 0 auto
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-	background-color: #1fabe2;
+	background-color: #ffffff;
+	/*background-color: transparent;*/
 	border: 0;
 	height: .6875em;
 	left: -.34375em;
+	bottom: 0;
+	opacity: 0;
 	width: .6875em
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
+	background-color: transparent;
 	display: none
 }
 
@@ -1203,8 +1260,8 @@
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-subtitle-region-container.bmpui-subtitle-position-default {
-	bottom: 2em;
-	left: 3em;
+	bottom: 1em;
+	left: 0;
 	right: 3em;
 	top: auto
 }
@@ -1238,8 +1295,8 @@
 
 .bmpui-ui-subtitle-overlay.bmpui-cea608 {
 	bottom: 2em;
-	left: 3em;
-	right: 3em;
+	left: 0;
+	right: 0;
 	top: 2em
 }
 
@@ -1291,12 +1348,12 @@
 }
 
 .bmpui-ui-volumecontrolbutton .bmpui-ui-volumeslider .bmpui-seekbar {
-	bottom: .5em;
+	bottom: 0;
 	height: auto;
-	left: .3em;
+	left: 0;
 	overflow: hidden;
 	position: absolute;
-	right: .3em;
+	right: 0;
 	top: .5em;
 	width: auto
 }
@@ -1340,7 +1397,7 @@
 	color: #fff;
 	font-size: 1.2em;
 	left: 0;
-	margin: 0 2em;
+	margin: 0;
 	pointer-events: none;
 	position: absolute;
 	right: 0;
@@ -1412,7 +1469,7 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	opacity: 1;
-	padding: .5em 1em 1em;
+	padding: 0;
 	pointer-events: none;
 	position: absolute;
 	top: 0;
@@ -1428,7 +1485,7 @@
 }
 
 .bmpui-ui-titlebar>.bmpui-container-wrapper {
-	padding: .5em;
+	padding: 0;
 	pointer-events: none
 }
 
@@ -1458,7 +1515,7 @@
 	height: 100%;
 	left: 0;
 	margin: 0;
-	opacity: 1;
+	opacity: 0;
 	position: absolute;
 	top: 0;
 	-webkit-transition: opacity .6s, visibility 0s;
@@ -1481,7 +1538,7 @@
 }
 
 .bmpui-ui-recommendation-overlay>.bmpui-container-wrapper {
-	padding: 3em
+	padding: 0
 }
 
 .bmpui-ui-recommendation-overlay a,
@@ -1502,7 +1559,7 @@
 	display: inline-block;
 	font-size: .7em;
 	height: 9em;
-	margin: .3em .6em;
+	margin: 0;
 	overflow: hidden;
 	position: relative;
 	text-align: left;
@@ -1635,7 +1692,7 @@
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live:before {
 	color: #999;
 	content: "●";
-	padding-right: .2em
+	padding-right: 0
 }
 
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live.bmpui-ui-playbacktimelabel-live-edge:before {
@@ -1674,7 +1731,7 @@
 }
 
 .bmpui-ui-buffering-overlay>.bmpui-container-wrapper {
-	padding: 3em
+	padding: 0
 }
 
 .bmpui-ui-buffering-overlay a,
@@ -1887,10 +1944,11 @@
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-white25 .bmpui-ui-subtitle-label {
 	color: hsla(0, 0%, 100%, .25)
 }
-
+/*
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-black100 .bmpui-ui-subtitle-label {
 	color: #000
 }
+*/
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-black75 .bmpui-ui-subtitle-label {
 	color: rgba(0, 0, 0, .75)
@@ -2063,10 +2121,11 @@
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-green25 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
 	background-color: rgba(0, 255, 0, .25)
 }
-
+/*
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-blue100 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
 	background-color: blue
 }
+*/
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-blue75 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
 	background-color: rgba(0, 0, 255, .75)
@@ -2191,10 +2250,11 @@
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-green25 .bmpui-subtitle-region-container {
 	background-color: rgba(0, 255, 0, .25)
 }
-
+/*
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-blue100 .bmpui-subtitle-region-container {
 	background-color: blue
 }
+*/
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-blue75 .bmpui-subtitle-region-container {
 	background-color: rgba(0, 0, 255, .75)
@@ -2352,7 +2412,7 @@
 .bmpui-ui-skin-ads .bmpui-ui-ads-status {
 	background-color: rgba(0, 0, 0, .7);
 	left: 1.5em;
-	padding: .5em 1.5em;
+	padding: 0;
 	position: absolute;
 	top: 1em
 }
@@ -2371,10 +2431,11 @@
 }
 
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-button-ad-skip:before {
-	color: #1fabe2;
+	/*color: #1fabe2;*/
+	color: #c7c7c7;
 	content: "●";
-	padding-left: .5em;
-	padding-right: .5em
+	padding-left: 0;
+	padding-right: 0
 }
 
 .bmpui-ui-skin-ads.bmpui-player-state-playing .bmpui-ui-playbacktoggle-overlay {
@@ -2384,7 +2445,7 @@
 .bmpui-ui-skin-ads.bmpui-ui-skin-smallscreen .bmpui-ui-ads-status {
 	bottom: 0;
 	left: 0;
-	padding: 1em 1.5em;
+	padding: 0;
 	top: auto;
 	width: 100%
 }
@@ -2392,7 +2453,7 @@
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-controlbar,
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-titlebar {
 	background: hsla(0, 0%, 7%, .85);
-	padding: .3em .5em
+	padding: 0
 }
 
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-controlbar {
@@ -2431,7 +2492,7 @@
 	display: -ms-inline-flexbox;
 	display: inline-flex;
 	line-height: 2em;
-	padding: .3em .5em;
+	padding: 0;
 	text-shadow: none
 }
 
@@ -2498,7 +2559,7 @@
 }
 
 .bmpui-ui-skin-smallscreen .bmpui-ui-settings-panel .bmpui-ui-closebutton {
-	margin: 2em;
+	margin: 0;
 	position: absolute;
 	right: 0;
 	top: 0
@@ -2599,12 +2660,12 @@
 }
 
 .bmpui-ui-skin-tv .bmpui-ui-titlebar>.bmpui-container-wrapper {
-	margin: 2% 2% 2vh;
+	margin: 0;
 	width: 96%
 }
 
 .bmpui-ui-skin-tv .bmpui-ui-titlebar-top {
-	margin-bottom: 1vh
+	margin-bottom: 0
 }
 
 .bmpui-ui-skin-tv .bmpui-ui-titlebar-top>.bmpui-container-wrapper {
@@ -2667,7 +2728,7 @@
 }
 
 .bmpui-ui-skin-tv .bmpui-ui-controlbar>.bmpui-container-wrapper {
-	margin: 2% 0;
+	margin: 0;
 	width: 99%
 }
 
@@ -2771,18 +2832,21 @@
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-seekbar {
-    background-color: #444;
+    /*background-color: #ffffff;*/
+    background-color: transparent;
 }
 
 .bitmovinplayer-container
 .bmpui-controlbar
 .bmpui-seekbar
 .bmpui-seekbar-playback {
-    background-color: #e50038;
+    /*background-color: #e50038;*/
+background-color: transparent;
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-time-label {
-    color: #fff;
+    /*color: #fff;*/
+background-color: transparent;
 }
 
 .bitmovinplayer-container
@@ -2802,18 +2866,21 @@
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    background-color: #fff;
+   /* background-color: #fff;*/
+     background-color: transparent;
 }
-
+/*
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
     background-color: #e50038;
 }
-
+*/
+/*
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
     background-color: #e50038;
     border-color: #e50038;
 }
+*/
 
 .bmpui-ui-titlebar > .bmpui-container-wrapper .bmpui-label-metadata-title {
     display: none;
@@ -2853,8 +2920,8 @@
 	animation: bmpui-fancy 2s ease-in infinite;
 	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st1{fill-rule:evenodd;clip-rule:evenodd;fill:%23e50038}%3C/style%3E%3Cpath class='st1' d='M8 8h16v16H8z' id='Rectangle_3_copy_3' style='opacity:.302'/%3E%3Cpath class='st1' d='M23 7H9c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 16H9V9h14v14z' id='Rectangle_2_copy_13'/%3E%3C/svg%3E") no-repeat 50%;
 	display: inline-block;
-	height: 2em;
-	margin: .2em;
+	height: 1em;
+	margin: 0;
 	width: 2em
 }
 
@@ -2906,8 +2973,43 @@
 .bmpui-ui-playbacktimelabel {
     display: none;
 }
-.bmpui-ui-seekbar{
-    display: none;
+
+.bmpui-ui-seekbar {
+    height: 4px;                  /* Set a thin height */
+    width: 100%;                  /* Make it span the full width */
+    background-color: #5d5c5a;    /* Light gray background */
+    position: absolute;
+    bottom: 0;                    /* Stick to the bottom of the player */
+    left: 0;
+    opacity: 0.6; 
+    z-index: 0;                  /* Ensure it stays above other elements */
+    border-radius: 0px;           /* Rounded corners for a sleek line */
+    box-shadow: none; /* Removes any box shadow */
+    filter: none; /* Removes any filter that might simulate a shadow */
+    border: none; /* Ensures no border appears like a shadow */
+}
+
+.bmpui-ui-seekbar .bmpui-ui-progress {
+    height: 100%;                      
+    width: 50%;                        
+    background-color: #ffffff;         
+    position: absolute;                
+    left: 0;                           
+    border-radius: 4px;                
+    opacity: 1;
+    box-shadow: none; /* Removes any box shadow */
+    filter: none; /* Removes any filter that might simulate a shadow */
+    border: none; /* Ensures no border appears like a shadow */
+}
+
+/* Hide labels or tooltips (optional) */
+.bmpui-ui-seekbar-label {
+    display: none;                /* Disable time markers or tooltips */
+}
+
+/* Hide the thumb (circle) */
+.bmpui-seekbar-thumb {
+    display: none !important; /* Completely hide the draggable thumb */
 }
 
 .bmpui-ui-settingstogglebutton.bmpui-on {
