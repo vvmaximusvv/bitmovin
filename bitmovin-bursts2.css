@@ -2832,6 +2832,7 @@
 /* Custom CSS */
 .video {
     position: absolute;
+    box-shadow: none;
     top: 0;
     left: 0;
     width: 100%;
@@ -2846,16 +2847,19 @@
     height: 100%;
     background-color: #000;
     border-radius: 0;
+    box-shadow: none;
     overflow: hidden;
 }
 
 #bitmovin-player {
+   box-shadow: none;
    border-radius: 14px;
 }
 
 
 .bitmovinplayer-container .bmpui-ui-watermark,
 .bitmovinplayer-container .bmpui-ui-loading-overlay {
+    box-shadow: none;
     display: none; /* Hide watermark and loading overlay for a cleaner look */
 }
 
@@ -2864,11 +2868,13 @@
     height: 100%;
     position: absolute;
     top: 0;
+    box-shadow: none;
     left: 0;
 }
 
 .bitmovinplayer-container .bmpui-controlbar {
     background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: none;
     border-top: 1px solid #333;
 }
 
@@ -2876,12 +2882,14 @@
 .bmpui-controlbar
 .bmpui-button-pane
 .bmpui-controlbar-button {
+    box-shadow: none;
     color: #fff;
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-seekbar {
     /*background-color: #ffffff;*/
     background-color: transparent;
+	box-shadow: none;
 }
 
 .bitmovinplayer-container
@@ -2890,11 +2898,13 @@
 .bmpui-seekbar-playback {
     /*background-color: #e50038;*/
 background-color: transparent;
+	box-shadow: none;
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-time-label {
     /*color: #fff;*/
-background-color: transparent;
+ background-color: transparent;
+	box-shadow: none;
 }
 
 .bitmovinplayer-container
@@ -2910,11 +2920,13 @@ background-color: transparent;
 .bmpui-button-pane
 .bmpui-volumebutton {
     background-color: transparent;
+    box-shadow: none;
     border: none;
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
    /* background-color: #fff;*/
+    box-shadow: none;
      background-color: transparent;
 }
 /*
@@ -2970,6 +2982,7 @@ background-color: transparent;
 	display: inline-block;
 	height: 1em;
 	margin: 0;
+	box-shadow: none;
 	width: 2em
 }
 
