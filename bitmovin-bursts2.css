@@ -68,7 +68,7 @@
 .bmpui-ui-listbox,
 .bmpui-ui-playbacktoggle-overlay,
 .bmpui-ui-recommendation-overlay,
-.bmpui-ui-seekbar-label,
+.-label,
 .bmpui-ui-settings-panel,
 .bmpui-ui-titlebar,
 .bmpui-ui-uicontainer,
@@ -906,7 +906,7 @@
 	border-bottom: 0
 }
 
-.bmpui-ui-seekbar-label {
+.-label {
 	bottom: 0;
 	left: 0;
 	margin-bottom: 0;
@@ -919,7 +919,7 @@
 	visibility: visible
 }
 
-.bmpui-ui-seekbar-label.bmpui-hidden {
+.-label.bmpui-hidden {
 	opacity: 0;
 	bottom: 0;
 	-webkit-transition: opacity .3s, visibility .3s;
@@ -928,8 +928,8 @@
 }
 
 .bmpui-ui-seekbar-label>.bmpui-container-wrapper {
-	margin-left: -50%;
-	margin-right: 50%;
+	margin-left: -30%;
+	margin-right: 30%;
 	position: absolute
 }
 
@@ -938,7 +938,7 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
-	border: .3em solid transparent;
+	border: .1em solid transparent;
 	border-top-color: #fff;
 	content: " ";
 	height: 0;
@@ -976,7 +976,7 @@
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-time {
 	display: block;
 	bottom: 0;
-	line-height: .8em
+	line-height: .5em
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-title {
@@ -988,7 +988,7 @@
 .bmpui-ui-seekbar,
 .bmpui-ui-volumeslider {
 	cursor: pointer;
-	font-size: 1em;
+	font-size: 0.5em;
 	height: 0.8em;
 	position: relative;
 	width: 100%
@@ -1087,13 +1087,13 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-	background-color: #c7c7c7;
-	border: 0 solid #c7c7c7;
+	background-color: transparent;
+	border: transparent;
 	border-radius: 0;
 	height: .9375em;
-	left: -.46875em;
+	left: -.36875em;
 	bottom: 0;
-	width: .9375em
+	width: 1em
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers,
@@ -1178,7 +1178,7 @@
 	background-color: #c7c7c7;
 	border: 0;
 	height: .3875em;
-	left: -.34375em;
+	left: -.24375em;
 	width: .6875em
 }
 
@@ -1353,7 +1353,7 @@
 	color: #fff;
 	font-size: 1.2em;
 	left: 0;
-	margin: 0 2em;
+	margin: 0;
 	pointer-events: none;
 	position: absolute;
 	right: 0;
