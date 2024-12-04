@@ -1099,9 +1099,10 @@
 	/*background-color: #1fabe2;*/
 	background-color: #ffffff;
 	/*background-color: transparent;*/
+	opacity: 1;
 	margin: 0;
 	bottom: 0;
-	height: 5px;
+	height: 4px;
 	-webkit-transition: .1s linear, .1s linear;
 	transition: .1s linear, .1s linear;
 	-webkit-transition-property: -webkit-transform;
@@ -2975,13 +2976,13 @@ background-color: transparent;
 }
 
 .bmpui-ui-seekbar {
-    height: 5px;                  /* Set a thin height */
+    height: 4px;                  /* Set a thin height */
     width: 100%;                  /* Make it span the full width */
     background-color: #5d5c5a;    /* Light gray background */
     position: absolute;
     bottom: 0;                    /* Stick to the bottom of the player */
     left: 0;
-    opacity: 0.5; 
+    opacity: 0.3; 
     z-index: 0;                  /* Ensure it stays above other elements */
     border-radius: 0px;           /* Rounded corners for a sleek line */
     box-shadow: none; /* Removes any box shadow */
