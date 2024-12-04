@@ -1098,7 +1098,6 @@
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	/*background-color: #1fabe2;*/
 	background-color: #ffffff;
-	/*background-color: transparent;*/
 	opacity: 1;
 	margin: 0;
 	bottom: 0;
@@ -2982,7 +2981,7 @@ background-color: transparent;
     position: absolute;
     bottom: 0;                    /* Stick to the bottom of the player */
     left: 0;
-    opacity: 0.3; 
+    opacity: 0.6; 
     z-index: 0;                  /* Ensure it stays above other elements */
     border-radius: 0px;           /* Rounded corners for a sleek line */
     box-shadow: none; /* Removes any box shadow */
