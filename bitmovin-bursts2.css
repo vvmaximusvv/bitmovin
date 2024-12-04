@@ -892,7 +892,7 @@
 .bmpui-ui-listbox .bmpui-ui-listbox-button .bmpui-label {
 	display: inherit
 }
-
+/*
 .bmpui-ui-listbox .bmpui-ui-listbox-button.bmpui-selected {
 	background-color: rgba(31, 171, 226, .7)
 }
@@ -900,6 +900,7 @@
 .bmpui-ui-listbox .bmpui-ui-listbox-button:hover {
 	background-color: rgba(31, 171, 226, .85)
 }
+*/
 
 .bmpui-ui-listbox .bmpui-ui-listbox-button:last-child {
 	border-bottom: 0
@@ -1086,7 +1087,7 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-	background-color: rgba(31, 171, 226, .5);
+	background-color: #c7c7c7;
 	border: 0 solid #c7c7c7;
 	border-radius: 0;
 	height: .9375em;
@@ -1470,7 +1471,7 @@
 	height: 100%;
 	left: 0;
 	margin: 0;
-	opacity: 1;
+	opacity: 0;
 	position: absolute;
 	top: 0;
 	-webkit-transition: opacity .6s, visibility 0s;
@@ -2076,10 +2077,11 @@
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-green25 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
 	background-color: rgba(0, 255, 0, .25)
 }
-
+/*
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-blue100 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
 	background-color: blue
 }
+*/
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-blue75 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
 	background-color: rgba(0, 0, 255, .75)
@@ -2204,10 +2206,11 @@
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-green25 .bmpui-subtitle-region-container {
 	background-color: rgba(0, 255, 0, .25)
 }
-
+/*
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-blue100 .bmpui-subtitle-region-container {
 	background-color: blue
 }
+*/
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-blue75 .bmpui-subtitle-region-container {
 	background-color: rgba(0, 0, 255, .75)
@@ -2869,8 +2872,8 @@
 	animation: bmpui-fancy 2s ease-in infinite;
 	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st1{fill-rule:evenodd;clip-rule:evenodd;fill:%23e50038}%3C/style%3E%3Cpath class='st1' d='M8 8h16v16H8z' id='Rectangle_3_copy_3' style='opacity:.302'/%3E%3Cpath class='st1' d='M23 7H9c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 16H9V9h14v14z' id='Rectangle_2_copy_13'/%3E%3C/svg%3E") no-repeat 50%;
 	display: inline-block;
-	height: 2em;
-	margin: .2em;
+	height: 1em;
+	margin: 0;
 	width: 2em
 }
 
