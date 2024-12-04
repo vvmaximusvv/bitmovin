@@ -715,7 +715,7 @@
 }
 
 .bmpui-ui-label-savedEnergy {
-	color: #1fabe2;
+	color: #c7c7c7;
 	font-size: .8em;
 	margin-left: 2.2em
 }
@@ -908,7 +908,7 @@
 .bmpui-ui-seekbar-label {
 	bottom: 0;
 	left: 0;
-	margin-bottom: 0.5em;
+	margin-bottom: 0;
 	opacity: 1;
 	pointer-events: none;
 	position: absolute;
@@ -1075,6 +1075,7 @@
 	/*background-color: #1fabe2;*/
 	background-color: #a2a1a1;
 	margin: 0;
+	bottom: 0;
 	-webkit-transition: .1s linear, .1s linear;
 	transition: .1s linear, .1s linear;
 	-webkit-transition-property: -webkit-transform;
@@ -1086,8 +1087,8 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
 	background-color: rgba(31, 171, 226, .5);
-	border: 0 solid #1fabe2;
-	border-radius: 50%;
+	border: 0 solid #c7c7c7;
+	border-radius: 0;
 	height: .9375em;
 	left: -.46875em;
 	bottom: 0;
@@ -1097,7 +1098,7 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers {
 	bottom: 0;
-	height: .3625em
+	height: 0
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
@@ -1119,7 +1120,7 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image {
-	height: 1em;
+	height: 0;
 	position: absolute;
 	-webkit-transform: translate(-50%, calc(-100% - .2em));
 	transform: translate(-50%, calc(-100% - .2em))
@@ -1153,7 +1154,7 @@
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker {
-	height: 1em;
+	height: 0;
 	top: -.5em;
 	width: 100%
 }
@@ -1175,7 +1176,7 @@
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
 	background-color: #c7c7c7;
 	border: 0;
-	height: .6875em;
+	height: .3875em;
 	left: -.34375em;
 	width: .6875em
 }
