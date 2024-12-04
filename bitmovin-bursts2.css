@@ -1097,7 +1097,7 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	/*background-color: #1fabe2;*/
-	/*background-color: #ffffff;*/
+	background-color: #ffffff;
 	background-color: transparent;
 	margin: 0;
 	bottom: 0;
