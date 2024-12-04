@@ -930,15 +930,17 @@
 .bmpui-ui-seekbar-label>.bmpui-container-wrapper {
 	margin-left: -50%;
 	margin-right: 50%;
+	bottom: 0;
 	position: absolute
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
 	border-bottom: 0em solid #fff
+	bottom: 0;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
-	border: .3em solid transparent;
+	border: 0;
 	border-top-color: #fff;
 	content: " ";
 	height: 0;
@@ -982,15 +984,17 @@
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-title {
 	display: block;
 	margin-bottom: 0;
+	bottom: 0;
 	white-space: normal
 }
 
 .bmpui-ui-seekbar,
 .bmpui-ui-volumeslider {
 	cursor: pointer;
-	font-size: 0.5em;
-	height: 0.8em;
+	font-size: 1em;
+	height: 0.5em;
 	position: relative;
+	bottom: 0;
 	width: 100%
 }
 
@@ -1009,6 +1013,7 @@
 
 .bmpui-ui-seekbar:focus:not(.bmpui-focus-visible),
 .bmpui-ui-volumeslider:focus:not(.bmpui-focus-visible) {
+	bottom: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	outline: none
@@ -1090,16 +1095,17 @@
 	background-color: transparent;
 	border: transparent;
 	border-radius: 0;
-	height: .9375em;
+	height: .5375em;
 	left: -.46875em;
 	bottom: 0;
+	opacity: 0;
 	width: .9375em
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers {
 	bottom: 0;
-	height: 0
+	height: .2625em
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
@@ -1123,6 +1129,7 @@
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image {
 	height: 0;
 	position: absolute;
+	bottom: 0;
 	-webkit-transform: translate(-50%, calc(-100% - .2em));
 	transform: translate(-50%, calc(-100% - .2em))
 }
@@ -1132,12 +1139,14 @@
 .bmpui-seeking.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-seeking.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	-webkit-transition: none;
+	bottom: 0;
 	transition: none
 }
 
 .bmpui-vertical.bmpui-ui-seekbar .bmpui-seekbar,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar {
 	height: 100%;
+	bottom: 0;
 	width: auto
 }
 
@@ -1157,6 +1166,7 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition .bmpui-seekbar-playbackposition-marker {
 	height: 0;
 	top: -.5em;
+	bottom: 0;
 	width: 100%
 }
 
@@ -1164,6 +1174,7 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop {
 	height: 100%;
 	margin: 0 auto;
+	bottom: 0;
 	width: auto
 }
 
@@ -1177,8 +1188,10 @@
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
 	background-color: #c7c7c7;
 	border: 0;
-	height: .3875em;
+	height: .6875em;
 	left: -.34375em;
+	bottom: 0;
+	opacity: 0;
 	width: .6875em
 }
 
