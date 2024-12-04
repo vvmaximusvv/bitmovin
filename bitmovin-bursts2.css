@@ -906,9 +906,9 @@
 }
 
 .bmpui-ui-seekbar-label {
-	bottom: 100%;
+	bottom: 0;
 	left: 0;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	opacity: 1;
 	pointer-events: none;
 	position: absolute;
@@ -933,7 +933,7 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
-	border-bottom: .2em solid #fff
+	border-bottom: 0em solid #fff
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
@@ -951,7 +951,8 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper {
-	position: absolute
+	position: absolute;
+	bottom: 0;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-thumbnail {
@@ -973,12 +974,13 @@
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-time {
 	display: block;
+	bottom: 0;
 	line-height: .8em
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-title {
 	display: block;
-	margin-bottom: .3em;
+	margin-bottom: 0;
 	white-space: normal
 }
 
@@ -986,13 +988,14 @@
 .bmpui-ui-volumeslider {
 	cursor: pointer;
 	font-size: 1em;
-	height: 1em;
+	height: 0.8em;
 	position: relative;
 	width: 100%
 }
 
 .bmpui-hidden.bmpui-ui-seekbar,
 .bmpui-hidden.bmpui-ui-volumeslider {
+	bottom: 0;
 	display: none
 }
 
@@ -1027,7 +1030,7 @@
 	bottom: 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	height: .3125em;
+	height: .2125em;
 	left: 0;
 	margin: 0;
 	position: absolute;
@@ -1043,6 +1046,7 @@
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop {
 	background-color: hsla(0, 0%, 100%, .2);
 	margin: 0;
+	bottom: 0;
 	width: 100%
 }
 
@@ -1055,6 +1059,7 @@
 	-webkit-transition-property: -webkit-transform;
 	transition-property: -webkit-transform;
 	transition-property: transform;
+	bottom: 0;
 	transition-property: transform, -webkit-transform
 }
 
@@ -1081,16 +1086,18 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
 	background-color: rgba(31, 171, 226, .5);
-	border: .1875em solid #1fabe2;
+	border: 0 solid #1fabe2;
 	border-radius: 50%;
 	height: .9375em;
 	left: -.46875em;
+	bottom: 0;
 	width: .9375em
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers {
-	height: .5625em
+	bottom: 0;
+	height: .3625em
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
@@ -1106,12 +1113,13 @@
 	transition-property: transform, -webkit-transform;
 	-webkit-transition-timing-function: linear;
 	transition-timing-function: linear;
+	bottom: 0;
 	width: 2px
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker>.bmpui-seekbar-marker-image {
-	height: 1.25em;
+	height: 1em;
 	position: absolute;
 	-webkit-transform: translate(-50%, calc(-100% - .2em));
 	transform: translate(-50%, calc(-100% - .2em))
@@ -1294,12 +1302,12 @@
 }
 
 .bmpui-ui-volumecontrolbutton .bmpui-ui-volumeslider .bmpui-seekbar {
-	bottom: .5em;
+	bottom: 0;
 	height: auto;
-	left: .3em;
+	left: 0;
 	overflow: hidden;
 	position: absolute;
-	right: .3em;
+	right: 0;
 	top: .5em;
 	width: auto
 }
