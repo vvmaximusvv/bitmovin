@@ -2836,7 +2836,8 @@
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    background-color: #fff;
+   /* background-color: #fff;*/
+     background-color: transparent;
 }
 /*
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
