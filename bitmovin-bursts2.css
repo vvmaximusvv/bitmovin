@@ -2942,7 +2942,7 @@
 .bmpui-ui-seekbar {
     height: 5px;                  /* Set a thin height */
     width: 100%;                  /* Make it span the full width */
-    background-color: #ffffff;    /* Light gray background */
+    background-color: #ff5722;    /* Light gray background */
     position: absolute;
     bottom: 0;                    /* Stick to the bottom of the player */
     left: 0;
