@@ -852,7 +852,7 @@
 .bmpui-ui-selectbox {
 	background-color: transparent;
 	border: 0;
-	color: #c7c7c7;
+	color: #ffffff;
 	cursor: pointer;
 	font-size: .8em;
 	padding: .1em
@@ -875,7 +875,7 @@
 }
 
 .bmpui-ui-selectbox option:checked {
-	color: #c7c7c7
+	color: #ffffff
 }
 
 .bmpui-ui-listbox .bmpui-ui-listbox-button {
@@ -941,7 +941,7 @@
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
 	border: 0;
-	border-top-color: #fff;
+	border-top-color: #ffffff;
 	content: " ";
 	height: 0;
 	left: 0;
@@ -2801,7 +2801,7 @@
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-seekbar {
-    background-color: #444;
+    background-color: #ffffff;
 }
 
 .bitmovinplayer-container
