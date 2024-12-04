@@ -1079,7 +1079,7 @@
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
 	/*background-color: #1fabe2;*/
-	background-color: #a2a1a1;
+	background-color: #ffffff;
 	margin: 0;
 	bottom: 0;
 	-webkit-transition: .1s linear, .1s linear;
@@ -1110,7 +1110,7 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker {
-	background-color: #fff;
+	/*background-color: #fff;*/
 	height: 100%;
 	text-align: center;
 	-webkit-transition-duration: 1s;
@@ -1186,7 +1186,7 @@
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-	background-color: #c7c7c7;
+	background-color: #ffffff;
 	border: 0;
 	height: .6875em;
 	left: -.34375em;
@@ -2942,7 +2942,7 @@
 .bmpui-ui-seekbar {
     height: 5px;                  /* Set a thin height */
     width: 100%;                  /* Make it span the full width */
-    background-color: #c7c7c7;    /* Light gray background */
+    background-color: #ffffff;    /* Light gray background */
     position: absolute;
     bottom: 0;                    /* Stick to the bottom of the player */
     left: 0;
