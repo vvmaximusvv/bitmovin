@@ -101,8 +101,8 @@
 }
 
 .bmpui-ui-uicontainer.bmpui-controls-shown .bmpui-ui-hugeplaybacktogglebutton:focus {
-	-webkit-box-shadow: inset -4px -3px 2px 9px #1b7fcc;
-	box-shadow: inset -4px -3px 2px 9px #1b7fcc
+	-webkit-box-shadow: none;
+	box-shadow: none
 }
 
 .bmpui-ui-uicontainer.bmpui-controls-shown .bmpui-ui-hugeplaybacktogglebutton:focus:not(.bmpui-focus-visible) {
@@ -410,8 +410,8 @@
 .bmpui-ui-volumetogglebutton:focus,
 .bmpui-ui-vrtogglebutton:focus,
 .bmpui-ui-watermark:focus {
-	-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
-	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
+	-webkit-box-shadow: none;
+	box-shadow: none;
 	outline: none
 }
 
@@ -450,7 +450,7 @@
 
 .bmpui-ui-playbacktogglebutton:hover {
 	-webkit-filter: drop-shadow(0 0 1px #fff);
-	filter: drop-shadow(0 0 1px #fff)
+	filter: none
 }
 
 .bmpui-ui-playbacktogglebutton.bmpui-on {
@@ -859,8 +859,8 @@
 }
 
 .bmpui-ui-selectbox:focus {
-	-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
-	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
+	-webkit-box-shadow: none;
+	box-shadow: none;
 	outline: none
 }
 
@@ -1018,8 +1018,8 @@
 
 .bmpui-ui-seekbar:focus,
 .bmpui-ui-volumeslider:focus {
-	-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
-	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
+	-webkit-box-shadow: none;
+	box-shadow: none;
 	background-color: transparent;
 	outline: none
 }
@@ -1497,7 +1497,7 @@
 	cursor: default;
 	display: block;
 	font-size: 1.2em;
-	text-shadow: 0 0 5px #000;
+	text-shadow: none;
 	white-space: normal
 }
 
@@ -1505,7 +1505,7 @@
 	color: #e6e6e6;
 	cursor: default;
 	display: block;
-	text-shadow: 0 0 5px #000;
+	text-shadow: none;
 	white-space: normal
 }
 
@@ -1563,7 +1563,7 @@
 	overflow: hidden;
 	position: relative;
 	text-align: left;
-	text-shadow: 0 0 3px #111;
+	text-shadow: none;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: -webkit-transform .15s ease-out;
