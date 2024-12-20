@@ -750,10 +750,10 @@
 }
 
 .bmpui-hidden.bmpui-ui-settings-panel {
-	opacity: 1;
+	opacity: 0;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
-	visibility: visible
+	visibility: hidden
 }
 
 .bmpui-ui-settings-panel>.bmpui-container-wrapper {
