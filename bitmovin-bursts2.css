@@ -99,9 +99,9 @@
 	display: none
 }
 
-.bmpui-ui-uicontainer.bmpui-player-state-playing.bmpui-controls-hidden * {
+.bmpui-ui-uicontainer.bmpui-player-state-playing * {
 	box-shadow: none;
-	cursor: none
+	cursor: pointer
 }
 
 .bmpui-ui-uicontainer.bmpui-controls-shown .bmpui-ui-hugeplaybacktogglebutton:focus {
@@ -2816,6 +2816,7 @@
 .bmpui-ui-uicontainer.bmpui-player-state-idle .bmpui-ui-controlbar,
 .bmpui-ui-uicontainer.bmpui-player-state-idle .bmpui-ui-hugeplaybacktogglebutton,
 .bmpui-ui-uicontainer.bmpui-player-state-idle .bmpui-ui-titlebar {
+	visibility: visible;
 	display: none
 }
 
@@ -2853,11 +2854,12 @@
     background-color: #000;
     border-radius: 0;
     box-shadow: none;
-    overflow: hidden;
+    overflow: visible;
 }
 
 #bitmovin-player {
    box-shadow: none;
+   visibility: visible;
    border-radius: 14px;
 }
 
@@ -2873,6 +2875,7 @@
     height: 100%;
     position: absolute;
     top: 0;
+    visibility: visible;
     box-shadow: none;
     left: 0;
 }
@@ -2880,6 +2883,7 @@
 .bitmovinplayer-container .bmpui-controlbar {
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: none;
+    visibility: visible;
     border-top: 1px solid #333;
 }
 
@@ -2887,12 +2891,14 @@
 .bmpui-controlbar
 .bmpui-button-pane
 .bmpui-controlbar-button {
+    visibility: visible;
     box-shadow: none;
     color: #fff;
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-seekbar {
     /*background-color: #ffffff;*/
+    visibility: visible;
     background-color: transparent;
 	box-shadow: none;
 }
@@ -2902,12 +2908,14 @@
 .bmpui-seekbar
 .bmpui-seekbar-playback {
     /*background-color: #e50038;*/
+visibility: visible;
 background-color: transparent;
 	box-shadow: none;
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-time-label {
     /*color: #fff;*/
+ visibility: visible;
  background-color: transparent;
 	box-shadow: none;
 }
@@ -2925,6 +2933,7 @@ background-color: transparent;
 .bmpui-button-pane
 .bmpui-volumebutton {
     background-color: transparent;
+    visibility: visible;
     box-shadow: none;
     border: none;
 }
