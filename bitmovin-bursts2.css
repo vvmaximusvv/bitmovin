@@ -1517,7 +1517,6 @@
 	top: 0;
 	-webkit-transition: opacity .3s, visibility 0s;
 	transition: opacity .3s, visibility 0s;
-	visibility: visible;
 	width: 100%
 }
 
