@@ -750,10 +750,10 @@
 }
 
 .bmpui-hidden.bmpui-ui-settings-panel {
-	opacity: 0;
+	opacity: 1;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
-	visibility: hidden
+	visibility: visible
 }
 
 .bmpui-ui-settings-panel>.bmpui-container-wrapper {
@@ -941,11 +941,12 @@
 .bmpui-ui-seekbar-label.bmpui-hidden {
 	opacity: 0;
 	bottom: 0;
+	opacity: 1;
 	background-color: transparent;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
 	box-shadow: none;
-	visibility: hidden
+	visibility: visible
 }
 
 .bmpui-ui-seekbar-label>.bmpui-container-wrapper {
@@ -1429,10 +1430,10 @@
 }
 
 .bmpui-ui-cast-status-overlay.bmpui-hidden {
-	opacity: 0;
+	opacity: 1;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
-	visibility: hidden
+	visibility: visible
 }
 
 .bmpui-ui-cast-status-overlay .bmpui-ui-cast-status-label {
@@ -1517,13 +1518,15 @@
 	top: 0;
 	-webkit-transition: opacity .3s, visibility 0s;
 	transition: opacity .3s, visibility 0s;
+	visibility: visible;
 	width: 100%
 }
 
 .bmpui-ui-titlebar.bmpui-hidden {
-	opacity: 0;
+	opacity: 1;
 	-webkit-transition: opacity .3s;
-	transition: opacity .3s
+	transition: opacity .3s;
+	visibility: visible
 }
 
 .bmpui-ui-titlebar>.bmpui-container-wrapper {
