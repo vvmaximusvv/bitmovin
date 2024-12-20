@@ -1875,6 +1875,7 @@
 	margin: 0;
 	position: absolute;
 	top: 0;
+	cursor: pointer;
 	width: 100%
 }
 
