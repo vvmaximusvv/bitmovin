@@ -1429,10 +1429,10 @@
 }
 
 .bmpui-ui-cast-status-overlay.bmpui-hidden {
-	opacity: 1;
+	opacity: 0;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
-	visibility: visible
+	visibility: hidden
 }
 
 .bmpui-ui-cast-status-overlay .bmpui-ui-cast-status-label {
