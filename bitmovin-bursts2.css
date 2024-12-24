@@ -1035,11 +1035,13 @@
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
 	border-bottom: 0em solid #fff
 	background-color: transparent;
+	display: none;
 	bottom: 0;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner:after {
 	border: 0;
+	display: none;
 	border-top-color: #ffffff;
 	background-color: transparent;
 	content: " ";
@@ -1055,6 +1057,7 @@
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper {
 	position: absolute;
+	display: none;
 	background-color: transparent;
 	bottom: 0;
 }
@@ -1072,21 +1075,21 @@
 	bottom: 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	display: block;
+	display: none;
 	padding: 0;
 	position: absolute;
 	width: 100%
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-time {
-	display: block;
+	display: none;
 	background-color: transparent;
 	bottom: 0;
 	line-height: .8em
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata .bmpui-seekbar-label-title {
-	display: block;
+	display: none;
 	background-color: transparent;
 	margin-bottom: 0;
 	bottom: 0;
@@ -1095,6 +1098,7 @@
 
 .bmpui-ui-seekbar,
 .bmpui-ui-volumeslider {
+	display: none;
 	cursor: pointer;
 	background-color: transparent;
 	font-size: 1em;
@@ -1116,12 +1120,14 @@
 	-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
 	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
 	background-color: transparent;
+	display: none;
 	outline: none
 }
 
 .bmpui-ui-seekbar:focus:not(.bmpui-focus-visible),
 .bmpui-ui-volumeslider:focus:not(.bmpui-focus-visible) {
 	bottom: 0;
+	display: none;
 	background-color: transparent;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -1143,6 +1149,7 @@
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	bottom: 0;
+	display: none;
 	background-color: transparent;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1163,6 +1170,7 @@
 	/*background-color: hsla(0, 0%, 100%, .2);*/
 	background-color: transparent;
 	margin: 0;
+	display: none;
 	bottom: 0;
 	width: 100%
 }
@@ -1178,6 +1186,7 @@
 	transition-property: -webkit-transform;
 	transition-property: transform;
 	bottom: 0;
+	display: none;
 	transition-property: transform, -webkit-transform
 }
 
@@ -1186,6 +1195,7 @@
 	/*background-color: hsla(0, 0%, 100%, .2);*/
 	background-color: transparent;
 	bottom: 0;
+	display: none;
 	margin: auto 0
 }
 
@@ -1197,6 +1207,7 @@
 	margin: 0;
 	bottom: 0;
 	height: 4px;
+	display: none;
 	-webkit-transition: .1s linear, .1s linear;
 	transition: .1s linear, .1s linear;
 	-webkit-transition-property: -webkit-transform;
@@ -1214,6 +1225,7 @@
 	left: -.46875em;
 	bottom: 0;
 	opacity: 0;
+	display: none;
 	width: .9375em
 }
 
@@ -1221,6 +1233,7 @@
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers {
 	background-color: transparent;
 	bottom: 0;
+	display: none;
 	height: .2625em
 }
 
@@ -1229,6 +1242,7 @@
 	background-color: #fff;
 	/*background-color: transparent;*/
 	height: 100%;
+	display: none;
 	text-align: center;
 	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
@@ -1248,6 +1262,7 @@
 	background-color: transparent;
 	position: absolute;
 	bottom: 0;
+	display: none;
 	-webkit-transform: translate(-50%, calc(-100% - .2em));
 	transform: translate(-50%, calc(-100% - .2em))
 }
@@ -1259,6 +1274,7 @@
 	-webkit-transition: none;
 	background-color: transparent;
 	bottom: 0;
+	display: none;
 	transition: none
 }
 
@@ -1266,6 +1282,7 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar {
 	background-color: transparent;
 	height: 100%;
+	display: none;
 	bottom: 0;
 	width: auto
 }
@@ -1280,6 +1297,7 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	background-color: transparent;
 	right: 0;
+	display: none;
 	top: auto
 }
 
@@ -1289,6 +1307,7 @@
 	height: 0;
 	top: -.5em;
 	bottom: 0;
+	display: none;
 	width: 100%
 }
 
@@ -1298,6 +1317,7 @@
 	height: 100%;
 	margin: 0 auto;
 	bottom: 0;
+	display: none;
 	width: auto
 }
 
@@ -1306,6 +1326,7 @@
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-vertical.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
 	background-color: transparent;
+	display: none;
 	margin: 0 auto
 }
 
@@ -1316,6 +1337,7 @@
 	height: .6875em;
 	left: -.34375em;
 	bottom: 0;
+	display: none;
 	opacity: 0;
 	width: .6875em
 }
@@ -1334,6 +1356,7 @@
 	right: 0;
 	text-align: center;
 	top: 0;
+	display: none;
 	-webkit-transition: bottom .15s ease-out;
 	transition: bottom .15s ease-out
 }
@@ -1345,16 +1368,18 @@
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay * {
 	opacity: 0;
+	display: none;
 	all: unset
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay p {
 	opacity: 0;
-	display: block
+	display: none;
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-subtitle-region-container {
 	opacity: 0;
+	display: none;
 	position: absolute
 }
 
@@ -1363,6 +1388,7 @@
 	bottom: 1em;
 	left: 0;
 	right: 3em;
+	display: none;
 	top: auto
 }
 
@@ -1370,6 +1396,7 @@
 	opacity: 0;
 	bottom: 0;
 	position: absolute;
+	display: none;
 	width: 100%
 }
 
@@ -1379,6 +1406,7 @@
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
+	display: none;
 	text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, -1px 0 0 #000, 1px 0 0 #000, -1px 1px 0 #000, 0 1px 0 #000, 1px 1px 0 #000
 }
 
@@ -1387,6 +1415,7 @@
 	content: "\a";
 	height: 0;
 	white-space: pre-line;
+	display: none;
 	width: 0
 }
 
@@ -1394,6 +1423,7 @@
 	opacity: 0;
 	bottom: 5em;
 	-webkit-transition: bottom .15s ease-in;
+	display: none;
 	transition: bottom .15s ease-in
 }
 
@@ -1402,7 +1432,9 @@
 	bottom: 2em;
 	left: 0;
 	right: 0;
+	display: none;
 	top: 2em
+	
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-cea608 .bmpui-subtitle-region-container.bmpui-subtitle-position-default {
@@ -1410,6 +1442,7 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
+	display: none;
 	top: 0
 }
 
@@ -1418,12 +1451,14 @@
 	font-family: Courier New, Courier, Nimbus Mono L, Cutive Mono, monospace;
 	line-height: 1em;
 	position: absolute;
+	display: none;
 	text-transform: uppercase
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-cea608 .bmpui-ui-subtitle-label:nth-child(1n-1):after {
 	opacity: 0;
 	content: normal;
+	display: none;
 	white-space: normal
 }
 
@@ -1431,11 +1466,13 @@
 	opacity: 0;
 	bottom: 2em;
 	-webkit-transition: none;
+	display: none;
 	transition: none
 }
 
 .bmpui-ui-volumecontrolbutton {
 	line-height: 0;
+	display: none;
 	position: relative
 }
 
@@ -1447,12 +1484,14 @@
 	position: absolute;
 	-webkit-transition: max-height .15s ease-in;
 	transition: max-height .15s ease-in;
+	display: none;
 	width: 1.5em
 }
 
 .bmpui-ui-volumecontrolbutton .bmpui-ui-volumeslider.bmpui-hidden {
 	max-height: 0;
 	-webkit-transition: max-height .15s ease-out;
+	display: none;
 	transition: max-height .15s ease-out
 }
 
@@ -1464,24 +1503,29 @@
 	position: absolute;
 	right: 0;
 	top: .5em;
+	display: none;
 	width: auto
 }
 
 .bmpui-ui-casttogglebutton {
+	display: none;
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st0{fill:%23fff}%3C/style%3E%3Cpath class='st0' d='M27.7 5.4H6.4c-1.2 0-2.1 1-2.1 2.1v2.1h2.1V7.5h21.3v12.8h-8.5v2.1h8.5c1.2 0 2.1-1 2.1-2.1V7.5c0-1.2-.9-2.1-2.1-2.1z' id='Rectangle_9_copy'/%3E%3Cpath class='st0' d='M2.2 12.8v2.1c6.5 0 11.7 5.2 11.7 11.7H16C16 19 9.8 12.8 2.2 12.8zm0 5.3v2.1c3.5 0 6.4 2.9 6.4 6.4h2.1c0-4.6-3.8-8.5-8.5-8.5zm0 5.3v3.2h3.2c0-1.8-1.4-3.2-3.2-3.2z' id='Rectangle_12'/%3E%3C/svg%3E")
 }
 
 .bmpui-ui-casttogglebutton:hover {
+	display: none;
 	-webkit-filter: drop-shadow(0 0 1px #fff);
 	filter: drop-shadow(0 0 1px #fff)
 }
 
 .bmpui-ui-casttogglebutton.bmpui-on {
+	display: none;
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st1{fill:%231fabe2}%3C/style%3E%3Cpath class='st1' d='M6.4 7.5v3.3c5.3.6 9.7 4.5 11.2 9.5h10.1V7.5H6.4z' id='Ellipse_1' style='opacity:.302'/%3E%3Cpath class='st1' d='M2.2 23.4v3.2h3.2c0-1.8-1.4-3.2-3.2-3.2zm0-5.3v2.1c3.5 0 6.4 2.9 6.4 6.4h2.1c0-4.6-3.8-8.5-8.5-8.5zm0-5.3v2.1c6.5 0 11.7 5.2 11.7 11.7H16C16 19 9.8 12.8 2.2 12.8zm25.5-7.4H6.4c-1.2 0-2.1 1-2.1 2.1v2.1h2.1V7.5h21.3v12.8h-8.5v2.1h8.5c1.2 0 2.1-1 2.1-2.1V7.5c0-1.2-.9-2.1-2.1-2.1z' id='Rectangle_12_2_'/%3E%3C/svg%3E")
 }
 
 .bmpui-ui-cast-status-overlay {
 	opacity: 0;
+	display: none;
 	background: #111 url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st0{fill:%23fff}%3C/style%3E%3Cpath class='st0' d='M27.7 5.4H6.4c-1.2 0-2.1 1-2.1 2.1v2.1h2.1V7.5h21.3v12.8h-8.5v2.1h8.5c1.2 0 2.1-1 2.1-2.1V7.5c0-1.2-.9-2.1-2.1-2.1z' id='Rectangle_9_copy'/%3E%3Cpath class='st0' d='M2.2 12.8v2.1c6.5 0 11.7 5.2 11.7 11.7H16C16 19 9.8 12.8 2.2 12.8zm0 5.3v2.1c3.5 0 6.4 2.9 6.4 6.4h2.1c0-4.6-3.8-8.5-8.5-8.5zm0 5.3v3.2h3.2c0-1.8-1.4-3.2-3.2-3.2z' id='Rectangle_12'/%3E%3C/svg%3E") 50% no-repeat;
 	background-size: 7em 7em;
 	height: 100%;
@@ -1497,6 +1541,7 @@
 }
 
 .bmpui-ui-cast-status-overlay.bmpui-hidden {
+	display: none;
 	opacity: 0;
 	-webkit-transition: opacity .3s, visibility .3s;
 	transition: opacity .3s, visibility .3s;
@@ -1505,6 +1550,7 @@
 
 .bmpui-ui-cast-status-overlay .bmpui-ui-cast-status-label {
 	opacity: 0;
+	display: none;
 	color: #fff;
 	font-size: 1.2em;
 	left: 0;
@@ -1518,6 +1564,7 @@
 
 .bmpui-ui-cast-status-overlay .bmpui-ui-cast-status-label * {
 	opacity: 0;
+	display: none;
 	pointer-events: none
 }
 
@@ -1530,6 +1577,7 @@
 	pointer-events: none;
 	position: absolute;
 	top: 0;
+	display: none;
 	width: 100%
 }
 
@@ -1554,6 +1602,7 @@
 	-moz-user-select: text;
 	-ms-user-select: text;
 	user-select: text;
+	display: none;
 	white-space: pre-line
 }
 
@@ -1561,11 +1610,13 @@
 	opacity: 0;
 	color: #999;
 	font-size: .9em;
+	display: none;
 	padding: 0
 }
 
 .bmpui-ui-errormessage-overlay .bmpui-ui-errormessage-label ul li {
 	opacity: 0;
+	display: none;
 	list-style: none
 }
 
@@ -1578,6 +1629,7 @@
 	margin: 0;
 	position: absolute;
 	top: 0;
+	display: none;
 	width: 100%
 }
 
@@ -1588,6 +1640,7 @@
 	box-sizing: border-box;
 	opacity: 1;
 	padding: 0;
+	display: none;
 	pointer-events: none;
 	position: absolute;
 	top: 0;
@@ -1598,22 +1651,25 @@
 
 .bmpui-ui-titlebar.bmpui-hidden {
 	opacity: 0;
+	display: none;
 	-webkit-transition: opacity .3s;
 	transition: opacity .3s
 }
 
 .bmpui-ui-titlebar>.bmpui-container-wrapper {
 	padding: 0;
+	display: none;
 	pointer-events: none
 }
 
 .bmpui-ui-titlebar>.bmpui-container-wrapper .bmpui-label-metadata {
+	display: none;
 	pointer-events: none
 }
 
 .bmpui-ui-titlebar>.bmpui-container-wrapper .bmpui-label-metadata-title {
 	cursor: default;
-	display: block;
+	display: none;
 	font-size: 1.2em;
 	text-shadow: 0 0 5px #000;
 	white-space: normal
@@ -1622,7 +1678,7 @@
 .bmpui-ui-titlebar>.bmpui-container-wrapper .bmpui-label-metadata-description {
 	color: #e6e6e6;
 	cursor: default;
-	display: block;
+	display: none;
 	text-shadow: 0 0 5px #000;
 	white-space: normal
 }
@@ -1630,7 +1686,7 @@
 .bmpui-ui-recommendation-overlay {
 	opacity: 0;
 	background-color: rgba(8, 43, 57, .7);
-	display: table;
+	display: none;
 	height: 100%;
 	left: 0;
 	margin: 0;
@@ -1645,7 +1701,7 @@
 
 .bmpui-ui-recommendation-overlay>.bmpui-container-wrapper {
 	opacity: 0;
-	display: table-cell;
+	display: none;
 	text-align: center;
 	vertical-align: middle
 }
@@ -1654,10 +1710,12 @@
 	opacity: 0;
 	-webkit-transition: opacity .6s, visibility .6s;
 	transition: opacity .6s, visibility .6s;
+	display: none;
 	visibility: hidden
 }
 
 .bmpui-ui-recommendation-overlay>.bmpui-container-wrapper {
+	display: none;
 	opacity: 0;
 	padding: 0
 }
@@ -1665,6 +1723,7 @@
 .bmpui-ui-recommendation-overlay a,
 .bmpui-ui-recommendation-overlay a:hover,
 .bmpui-ui-recommendation-overlay a:visited {
+	display: none;
 	opacity: 0;
 	color: #fff
 }
@@ -1673,6 +1732,7 @@
 	opacity: 0;
 	bottom: 2em;
 	left: 2em;
+	display: none;
 	position: absolute
 }
 
@@ -1680,7 +1740,7 @@
 	opacity: 0;
 	background-position: 50%;
 	background-size: cover;
-	display: inline-block;
+	display: none;
 	font-size: .7em;
 	height: 9em;
 	margin: 0;
@@ -1703,6 +1763,7 @@
 	background: linear-gradient(180deg, transparent, transparent, rgba(0, 0, 0, .7));
 	height: 100%;
 	position: absolute;
+	display: none;
 	top: 20%;
 	-webkit-transition: top .15s ease-out;
 	transition: top .15s ease-out;
@@ -1713,6 +1774,7 @@
 	opacity: 0;
 	bottom: 3em;
 	left: 1em;
+	display: none;
 	position: absolute;
 	right: 1em
 }
@@ -1721,6 +1783,7 @@
 	opacity: 0;
 	font-size: 1.2em;
 	white-space: normal;
+	display: none;
 	word-break: break-all
 }
 
@@ -1728,6 +1791,7 @@
 	opacity: 0;
 	bottom: 1em;
 	left: 1em;
+	display: none;
 	position: absolute
 }
 
@@ -1739,12 +1803,14 @@
 	-webkit-transition: -webkit-transform .15s ease-in;
 	transition: -webkit-transform .15s ease-in;
 	transition: transform .15s ease-in;
+	display: none;
 	transition: transform .15s ease-in, -webkit-transform .15s ease-in
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-recommendation-item:hover .bmpui-background {
 	opacity: 0;
 	top: 0;
+	display: none;
 	-webkit-transition: top .15s ease-in;
 	transition: top .15s ease-in
 }
@@ -1765,6 +1831,7 @@
 .bmpui-ui-hugereplaybutton {
 	height: 5em;
 	outline: none;
+	display: none;
 	width: 5em
 }
 
@@ -1774,10 +1841,12 @@
 	background-repeat: no-repeat;
 	background-size: 5em;
 	height: 100%;
+	display: none;
 	width: 100%
 }
 
 @-webkit-keyframes bmpui-spin {
+	display: none;
 	50% {
 		-webkit-transform: rotate(180deg) scale(1.1);
 		transform: rotate(180deg) scale(1.1)
@@ -1790,6 +1859,7 @@
 }
 
 @keyframes bmpui-spin {
+	display: none;
 	50% {
 		-webkit-transform: rotate(180deg) scale(1.1);
 		transform: rotate(180deg) scale(1.1)
@@ -1802,50 +1872,58 @@
 }
 
 .bmpui-ui-hugereplaybutton .bmpui-image:hover {
+	display: none;
 	-webkit-animation: bmpui-spin .5s ease-in;
 	animation: bmpui-spin .5s ease-in
 }
 
 .bmpui-ui-replaybutton {
+	display: none;
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cpath d='M22.8 9.1c-3.8-3.9-10.1-4-14.1-.2V7.1c0-.6-.4-1-1-1s-1 .4-1 1v4.5c0 .6.4 1 1 1h4.5c.6 0 1-.4 1-1s-.4-1-1-1H9.8c1.6-1.6 3.7-2.5 5.9-2.5 4.4 0 8 3.7 8 8.1s-3.7 8-8.1 8c-3.5 0-6.5-2.3-7.6-5.4-.1-.4-.5-.8-.9-.8-.5 0-1 .4-1 1 0 .1 0 .2.1.3.5 1.3 1.2 2.5 2.2 3.5 3.8 4 10.1 4.1 14.1.3 4-3.6 4.1-9.9.3-14z' style='fill:%23fff'/%3E%3C/svg%3E")
 }
 
 .bmpui-ui-replaybutton:hover {
+	display: none;
 	-webkit-filter: drop-shadow(0 0 1px #fff);
 	filter: drop-shadow(0 0 1px #fff)
 }
 
 .bmpui-ui-playbacktimelabel {
+	display: none;
 	text-transform: uppercase
 }
 
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live {
+	display: none;
 	cursor: pointer
 }
 
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live:before {
+	display: none;
 	color: #999;
 	content: "●";
 	padding-right: 0
 }
 
 .bmpui-ui-playbacktimelabel.bmpui-ui-playbacktimelabel-live.bmpui-ui-playbacktimelabel-live-edge:before {
+	display: none;
 	color: red
 }
 
 .bmpui-ui-buffering-overlay {
 	opacity: 0;
-	display: table
+	display: none;
 }
 
 .bmpui-ui-buffering-overlay>.bmpui-container-wrapper {
 	opacity: 0;
-	display: table-cell;
+	display: none;
 	text-align: center;
 	vertical-align: middle
 }
 
 .bmpui-ui-buffering-overlay {
+	display: none;
 	opacity: 0;
 	background-color: rgba(8, 43, 57, .7);
 	height: 100%;
@@ -1863,12 +1941,14 @@
 .bmpui-ui-buffering-overlay.bmpui-hidden {
 	opacity: 0;
 	opacity: 0;
+	display: none;
 	-webkit-transition: opacity .6s, visibility .6s;
 	transition: opacity .6s, visibility .6s;
 	visibility: hidden
 }
 
 .bmpui-ui-buffering-overlay>.bmpui-container-wrapper {
+	display: none;
 	opacity: 0;
 	padding: 0
 }
@@ -1876,6 +1956,7 @@
 .bmpui-ui-buffering-overlay a,
 .bmpui-ui-buffering-overlay a:hover,
 .bmpui-ui-buffering-overlay a:visited {
+	display: none;
 	opacity: 0;
 	color: #fff
 }
@@ -1885,13 +1966,14 @@
 	-webkit-animation: bmpui-fancy 2s ease-in infinite;
 	animation: bmpui-fancy 2s ease-in infinite;
 	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st1{fill-rule:evenodd;clip-rule:evenodd;fill:%231fabe2}%3C/style%3E%3Cpath class='st1' d='M8 8h16v16H8z' id='Rectangle_3_copy_3' style='opacity:.302'/%3E%3Cpath class='st1' d='M23 7H9c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 16H9V9h14v14z' id='Rectangle_2_copy_13'/%3E%3C/svg%3E") no-repeat 50%;
-	display: inline-block;
+	display: none;
 	height: 2em;
 	margin: .2em;
 	width: 2em
 }
 
 @-webkit-keyframes bmpui-fancy {
+	display: none;
 	0% {
 		opacity: 0;
 		-webkit-transform: scale(1);
@@ -1920,6 +2002,7 @@
 }
 
 @keyframes bmpui-fancy {
+	display: none;
 	0% {
 		opacity: 0;
 		-webkit-transform: scale(1);
