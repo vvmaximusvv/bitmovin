@@ -1258,22 +1258,27 @@
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay.bmpui-hidden {
+	opacity: 0;
 	display: none
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay * {
+	opacity: 0;
 	all: unset
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay p {
+	opacity: 0;
 	display: block
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-subtitle-region-container {
+	opacity: 0;
 	position: absolute
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-subtitle-region-container.bmpui-subtitle-position-default {
+	opacity: 0;
 	bottom: 1em;
 	left: 0;
 	right: 3em;
@@ -1281,12 +1286,14 @@
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-subtitle-region-container.bmpui-subtitle-position-bottom>div {
+	opacity: 0;
 	bottom: 0;
 	position: absolute;
 	width: 100%
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: #fff;
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
@@ -1295,6 +1302,7 @@
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-ui-subtitle-label:nth-child(1n-1):after {
+	opacity: 0;
 	content: "\a";
 	height: 0;
 	white-space: pre-line;
@@ -1302,12 +1310,14 @@
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay.bmpui-controlbar-visible {
+	opacity: 0;
 	bottom: 5em;
 	-webkit-transition: bottom .15s ease-in;
 	transition: bottom .15s ease-in
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-cea608 {
+	opacity: 0;
 	bottom: 2em;
 	left: 0;
 	right: 0;
@@ -1315,6 +1325,7 @@
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-cea608 .bmpui-subtitle-region-container.bmpui-subtitle-position-default {
+	opacity: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -1322,6 +1333,7 @@
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-cea608 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-family: Courier New, Courier, Nimbus Mono L, Cutive Mono, monospace;
 	line-height: 1em;
 	position: absolute;
@@ -1329,11 +1341,13 @@
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-cea608 .bmpui-ui-subtitle-label:nth-child(1n-1):after {
+	opacity: 0;
 	content: normal;
 	white-space: normal
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-cea608.bmpui-controlbar-visible {
+	opacity: 0;
 	bottom: 2em;
 	-webkit-transition: none;
 	transition: none
@@ -1386,6 +1400,7 @@
 }
 
 .bmpui-ui-cast-status-overlay {
+	opacity: 0;
 	background: #111 url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st0{fill:%23fff}%3C/style%3E%3Cpath class='st0' d='M27.7 5.4H6.4c-1.2 0-2.1 1-2.1 2.1v2.1h2.1V7.5h21.3v12.8h-8.5v2.1h8.5c1.2 0 2.1-1 2.1-2.1V7.5c0-1.2-.9-2.1-2.1-2.1z' id='Rectangle_9_copy'/%3E%3Cpath class='st0' d='M2.2 12.8v2.1c6.5 0 11.7 5.2 11.7 11.7H16C16 19 9.8 12.8 2.2 12.8zm0 5.3v2.1c3.5 0 6.4 2.9 6.4 6.4h2.1c0-4.6-3.8-8.5-8.5-8.5zm0 5.3v3.2h3.2c0-1.8-1.4-3.2-3.2-3.2z' id='Rectangle_12'/%3E%3C/svg%3E") 50% no-repeat;
 	background-size: 7em 7em;
 	height: 100%;
@@ -1408,6 +1423,7 @@
 }
 
 .bmpui-ui-cast-status-overlay .bmpui-ui-cast-status-label {
+	opacity: 0;
 	color: #fff;
 	font-size: 1.2em;
 	left: 0;
@@ -1420,10 +1436,12 @@
 }
 
 .bmpui-ui-cast-status-overlay .bmpui-ui-cast-status-label * {
+	opacity: 0;
 	pointer-events: none
 }
 
 .bmpui-ui-errormessage-overlay {
+	opacity: 0;
 	background-color: #111;
 	height: 100%;
 	left: 0;
@@ -1435,10 +1453,12 @@
 }
 
 .bmpui-ui-errormessage-overlay.bmpui-hidden {
+	opacity: 0;
 	display: none
 }
 
 .bmpui-ui-errormessage-overlay .bmpui-ui-errormessage-label {
+	opacity: 0;
 	color: #fff;
 	font-size: 1.2em;
 	left: 3em;
@@ -1457,16 +1477,19 @@
 }
 
 .bmpui-ui-errormessage-overlay .bmpui-ui-errormessage-label ul {
+	opacity: 0;
 	color: #999;
 	font-size: .9em;
 	padding: 0
 }
 
 .bmpui-ui-errormessage-overlay .bmpui-ui-errormessage-label ul li {
+	opacity: 0;
 	list-style: none
 }
 
 .bmpui-ui-errormessage-overlay .bmpui-ui-tvnoisecanvas {
+	opacity: 0;
 	-webkit-filter: blur(4px);
 	filter: blur(4px);
 	height: 100%;
@@ -1524,6 +1547,7 @@
 }
 
 .bmpui-ui-recommendation-overlay {
+	opacity: 0;
 	background-color: rgba(8, 43, 57, .7);
 	display: table;
 	height: 100%;
@@ -1539,6 +1563,7 @@
 }
 
 .bmpui-ui-recommendation-overlay>.bmpui-container-wrapper {
+	opacity: 0;
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle
@@ -1552,22 +1577,26 @@
 }
 
 .bmpui-ui-recommendation-overlay>.bmpui-container-wrapper {
+	opacity: 0;
 	padding: 0
 }
 
 .bmpui-ui-recommendation-overlay a,
 .bmpui-ui-recommendation-overlay a:hover,
 .bmpui-ui-recommendation-overlay a:visited {
+	opacity: 0;
 	color: #fff
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-hugereplaybutton {
+	opacity: 0;
 	bottom: 2em;
 	left: 2em;
 	position: absolute
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-recommendation-item {
+	opacity: 0;
 	background-position: 50%;
 	background-size: cover;
 	display: inline-block;
@@ -1588,6 +1617,7 @@
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-recommendation-item .bmpui-background {
+	opacity: 0;
 	background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(transparent), to(rgba(0, 0, 0, .7)));
 	background: linear-gradient(180deg, transparent, transparent, rgba(0, 0, 0, .7));
 	height: 100%;
@@ -1599,6 +1629,7 @@
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-recommendation-item .bmpui-title {
+	opacity: 0;
 	bottom: 3em;
 	left: 1em;
 	position: absolute;
@@ -1606,18 +1637,21 @@
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-recommendation-item .bmpui-title .bmpui-innertitle {
+	opacity: 0;
 	font-size: 1.2em;
 	white-space: normal;
 	word-break: break-all
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-recommendation-item .bmpui-duration {
+	opacity: 0;
 	bottom: 1em;
 	left: 1em;
 	position: absolute
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-recommendation-item:hover {
+	opacity: 0;
 	outline: 2px solid #1fabe2;
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
@@ -1628,6 +1662,7 @@
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-recommendation-item:hover .bmpui-background {
+	opacity: 0;
 	top: 0;
 	-webkit-transition: top .15s ease-in;
 	transition: top .15s ease-in
@@ -1635,6 +1670,7 @@
 /*Play/Pause handle on Prontend app*/
 
 .bmpui-ui-clickoverlay {
+	opacity: 0;
 	height: 0%;
 	left: 0;
 	margin: 0;
@@ -1717,16 +1753,19 @@
 }
 
 .bmpui-ui-buffering-overlay {
+	opacity: 0;
 	display: table
 }
 
 .bmpui-ui-buffering-overlay>.bmpui-container-wrapper {
+	opacity: 0;
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle
 }
 
 .bmpui-ui-buffering-overlay {
+	opacity: 0;
 	background-color: rgba(8, 43, 57, .7);
 	height: 100%;
 	left: 0;
@@ -1742,22 +1781,26 @@
 
 .bmpui-ui-buffering-overlay.bmpui-hidden {
 	opacity: 0;
+	opacity: 0;
 	-webkit-transition: opacity .6s, visibility .6s;
 	transition: opacity .6s, visibility .6s;
 	visibility: hidden
 }
 
 .bmpui-ui-buffering-overlay>.bmpui-container-wrapper {
+	opacity: 0;
 	padding: 0
 }
 
 .bmpui-ui-buffering-overlay a,
 .bmpui-ui-buffering-overlay a:hover,
 .bmpui-ui-buffering-overlay a:visited {
+	opacity: 0;
 	color: #fff
 }
 
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
+	opacity: 0;
 	-webkit-animation: bmpui-fancy 2s ease-in infinite;
 	animation: bmpui-fancy 2s ease-in infinite;
 	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st1{fill-rule:evenodd;clip-rule:evenodd;fill:%231fabe2}%3C/style%3E%3Cpath class='st1' d='M8 8h16v16H8z' id='Rectangle_3_copy_3' style='opacity:.302'/%3E%3Cpath class='st1' d='M23 7H9c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 16H9V9h14v14z' id='Rectangle_2_copy_13'/%3E%3C/svg%3E") no-repeat 50%;
@@ -1824,21 +1867,25 @@
 }
 
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator:first-child {
+	opacity: 0;
 	-webkit-animation-delay: 0s;
 	animation-delay: 0s
 }
 
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator:nth-child(2) {
+	opacity: 0;
 	-webkit-animation-delay: .2s;
 	animation-delay: .2s
 }
 
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator:nth-child(3) {
+	opacity: 0;
 	-webkit-animation-delay: .4s;
 	animation-delay: .4s
 }
 
 .bmpui-ui-buffering-overlay.bmpui-hidden .bmpui-ui-buffering-overlay-indicator {
+	opacity: 0;
 	display: none
 }
 /*
@@ -1948,18 +1995,22 @@
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-white100 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: #fff
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-white75 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: hsla(0, 0%, 100%, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-white50 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: hsla(0, 0%, 100%, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-white25 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: hsla(0, 0%, 100%, .25)
 }
 /*
@@ -1969,174 +2020,217 @@
 */
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-black75 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 0, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-black50 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 0, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-black25 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 0, 0, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-red100 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: red
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-red75 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(255, 0, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-red50 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(255, 0, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-red25 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(255, 0, 0, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-green100 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: lime
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-green75 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 255, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-green50 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 255, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-green25 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 255, 0, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-blue100 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: blue
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-blue75 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 0, 255, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-blue50 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 0, 255, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-blue25 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 0, 255, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-cyan100 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: aqua
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-cyan75 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 255, 255, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-cyan50 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 255, 255, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-cyan25 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(0, 255, 255, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-yellow100 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: #ff0
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-yellow75 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(255, 255, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-yellow50 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(255, 255, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-yellow25 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(255, 255, 0, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-magenta100 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: #f0f
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-magenta75 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(255, 0, 255, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-magenta50 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(255, 0, 255, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontcolor-magenta25 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	color: rgba(255, 0, 255, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-white100 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: #fff
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-white75 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: hsla(0, 0%, 100%, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-white50 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: hsla(0, 0%, 100%, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-white25 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: hsla(0, 0%, 100%, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-black100 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: #000
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-black75 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 0, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-black50 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 0, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-black25 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 0, 0, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-red100 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: red
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-red75 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(255, 0, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-red50 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(255, 0, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-red25 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(255, 0, 0, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-green100 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: lime
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-green75 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 255, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-green50 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 255, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-green25 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 255, 0, .25)
 }
 /*
@@ -2146,126 +2240,157 @@
 */
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-blue75 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 0, 255, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-blue50 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 0, 255, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-blue25 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 0, 255, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-cyan100 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: aqua
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-cyan75 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 255, 255, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-cyan50 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 255, 255, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-cyan25 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 255, 255, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-yellow100 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: #ff0
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-yellow75 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(255, 255, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-yellow50 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(255, 255, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-yellow25 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(255, 255, 0, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-magenta100 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: #f0f
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-magenta75 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(255, 0, 255, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-magenta50 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(255, 0, 255, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-bgcolor-magenta25 .bmpui-subtitle-region-container .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(255, 0, 255, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-white100 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: #fff
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-white75 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: hsla(0, 0%, 100%, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-white50 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: hsla(0, 0%, 100%, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-white25 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: hsla(0, 0%, 100%, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-black100 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: #000
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-black75 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 0, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-black50 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 0, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-black25 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 0, 0, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-red100 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: red
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-red75 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(255, 0, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-red50 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(255, 0, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-red25 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(255, 0, 0, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-green100 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: lime
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-green75 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 255, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-green50 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 255, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-green25 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 255, 0, .25)
 }
 /*
@@ -2275,130 +2400,162 @@
 */
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-blue75 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 0, 255, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-blue50 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 0, 255, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-blue25 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 0, 255, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-cyan100 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: aqua
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-cyan75 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 255, 255, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-cyan50 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 255, 255, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-cyan25 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(0, 255, 255, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-yellow100 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: #ff0
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-yellow75 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(255, 255, 0, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-yellow50 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(255, 255, 0, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-yellow25 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(255, 255, 0, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-magenta100 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: #f0f
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-magenta75 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(255, 0, 255, .75)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-magenta50 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(255, 0, 255, .5)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-windowcolor-magenta25 .bmpui-subtitle-region-container {
+	opacity: 0;
 	background-color: rgba(255, 0, 255, .25)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontsize-50 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-size: .5em
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontsize-75 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-size: .75em
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontsize-100 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-size: 1em
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontsize-150 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-size: 1.5em
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontsize-200 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-size: 2em
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontsize-300 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-size: 3em
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontsize-400 .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-size: 4em
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-none .bmpui-ui-subtitle-label {
+	opacity: 0;
 	text-shadow: none
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-raised .bmpui-ui-subtitle-label {
+	opacity: 0;
 	text-shadow: 0 0 4px rgba(0, 0, 0, .9), 0 1px 4px rgba(0, 0, 0, .9), 0 2px 4px rgba(0, 0, 0, .9)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-depressed .bmpui-ui-subtitle-label {
+	opacity: 0;
 	text-shadow: rgba(0, 0, 0, .8) 0 -2px 1px
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-uniform .bmpui-ui-subtitle-label {
+	opacity: 0;
 	text-shadow: -2px 0 1px rgba(0, 0, 0, .8), 2px 0 1px rgba(0, 0, 0, .8), 0 -2px 1px rgba(0, 0, 0, .8), 0 2px 1px rgba(0, 0, 0, .8), -1px 1px 1px rgba(0, 0, 0, .8), 1px 1px 1px rgba(0, 0, 0, .8), 1px -1px 1px rgba(0, 0, 0, .8), 1px 1px 1px rgba(0, 0, 0, .8)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-dropshadowed .bmpui-ui-subtitle-label {
+	opacity: 0;
 	text-shadow: 0 2px 1px rgba(0, 0, 0, .8)
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontfamily-monospacedserif .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-family: Courier New, Courier, Nimbus Mono L, Cutive Mono, monospace
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontfamily-proportionalserif .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-family: Times New Roman, Times, Georgia, Cambria, "PT Serif Caption", serif
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontfamily-monospacedsansserif .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-family: Deja Vu Sans Mono, Lucida Console, Monaco, Consolas, PT Mono, monospace
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontfamily-proportionalsansserif .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-family: Roboto, Arial Unicode Ms, Arial, Helvetica, Verdana, PT Sans Caption, sans-serif
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontfamily-casual .bmpui-ui-subtitle-label {
+	opacity: 0;
 	font-family: Comic Sans MS, Impact, Handlee, fantasy
 }
 
@@ -2496,14 +2653,17 @@
 }
 
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay {
+	opacity: 0;
 	bottom: 10%
 }
 
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay.bmpui-controlbar-visible {
+	opacity: 0;
 	bottom: 20%
 }
 
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-ui-subtitle-label {
+	opacity: 0;
 	background-color: rgba(0, 0, 0, .5);
 	-webkit-box-decoration-break: clone;
 	box-decoration-break: clone;
@@ -2609,10 +2769,12 @@
 }
 
 .bmpui-ui-skin-smallscreen .bmpui-ui-cast-status-overlay {
+	opacity: 0;
 	background: #111
 }
 
 .bmpui-ui-skin-smallscreen .bmpui-ui-cast-status-overlay .bmpui-ui-cast-status-label {
+	opacity: 0;
 	top: 30%
 }
 
@@ -2641,6 +2803,7 @@
 .bmpui-ui-skin-smallscreen.bmpui-layout-max-width-400 .bmpui-ui-hugereplaybutton,
 .bmpui-ui-skin-smallscreen.bmpui-layout-max-width-400 .bmpui-ui-settings-panel,
 .bmpui-ui-skin-smallscreen.bmpui-layout-max-width-400 .bmpui-ui-subtitle-overlay {
+	opacity: 0;
 	font-size: .6em
 }
 
@@ -2651,6 +2814,7 @@
 .bmpui-ui-skin-smallscreen.bmpui-layout-max-width-600 .bmpui-ui-hugereplaybutton,
 .bmpui-ui-skin-smallscreen.bmpui-layout-max-width-600 .bmpui-ui-settings-panel,
 .bmpui-ui-skin-smallscreen.bmpui-layout-max-width-600 .bmpui-ui-subtitle-overlay {
+	opacity: 0;
 	font-size: .8em
 }
 
@@ -3042,9 +3206,11 @@ background-color: transparent;
 }
 
 .player-no-tap .bmpui-ui-clickoverlay {
+  opacity: 0;
   pointer-events: none;
 }
 
 #bitmovin-player-instance .bmpui-ui-clickoverlay {
+  opacity: 0;
   pointer-events: none;
 }
