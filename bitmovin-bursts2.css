@@ -1619,16 +1619,17 @@
 	transition: top .15s ease-in
 }
 /*Play/Pause handle on Prontend app*/
-/*
+
 .bmpui-ui-clickoverlay {
-	height: 100%;
+	height: 0%;
 	left: 0;
 	margin: 0;
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
-	width: 100%
+	display: none;
+	width: 0%
 }
-*/
+
 
 .bmpui-ui-hugereplaybutton {
 	height: 5em;
