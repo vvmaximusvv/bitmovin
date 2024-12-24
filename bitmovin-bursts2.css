@@ -15,7 +15,7 @@
 .bmpui-ui-button,
 .bmpui-ui-cast-status-overlay,
 .bmpui-ui-casttogglebutton,
-.bmpui-ui-clickoverlay,
+/*.bmpui-ui-clickoverlay,*/
 .bmpui-ui-closebutton,
 .bmpui-ui-component,
 .bmpui-ui-container,
@@ -191,7 +191,7 @@
 .bmpui-ui-audiotracksettingstogglebutton,
 .bmpui-ui-button,
 .bmpui-ui-casttogglebutton,
-.bmpui-ui-clickoverlay,
+/*.bmpui-ui-clickoverlay,*/
 .bmpui-ui-closebutton,
 .bmpui-ui-ecomodetogglebutton,
 .bmpui-ui-fullscreentogglebutton,
@@ -230,7 +230,7 @@
 .bmpui-ui-audiotracksettingstogglebutton .bmpui-label,
 .bmpui-ui-button .bmpui-label,
 .bmpui-ui-casttogglebutton .bmpui-label,
-.bmpui-ui-clickoverlay .bmpui-label,
+/*.bmpui-ui-clickoverlay .bmpui-label,*/
 .bmpui-ui-closebutton .bmpui-label,
 .bmpui-ui-ecomodetogglebutton .bmpui-label,
 .bmpui-ui-fullscreentogglebutton .bmpui-label,
@@ -258,7 +258,7 @@
 .bmpui-disabled.bmpui-ui-audiotracksettingstogglebutton,
 .bmpui-disabled.bmpui-ui-button,
 .bmpui-disabled.bmpui-ui-casttogglebutton,
-.bmpui-disabled.bmpui-ui-clickoverlay,
+/*.bmpui-disabled.bmpui-ui-clickoverlay,*/
 .bmpui-disabled.bmpui-ui-closebutton,
 .bmpui-disabled.bmpui-ui-ecomodetogglebutton,
 .bmpui-disabled.bmpui-ui-fullscreentogglebutton,
@@ -289,8 +289,8 @@
 .bmpui-disabled.bmpui-ui-button>*,
 .bmpui-disabled.bmpui-ui-casttogglebutton,
 .bmpui-disabled.bmpui-ui-casttogglebutton>*,
-.bmpui-disabled.bmpui-ui-clickoverlay,
-.bmpui-disabled.bmpui-ui-clickoverlay>*,
+/*.bmpui-disabled.bmpui-ui-clickoverlay,
+.bmpui-disabled.bmpui-ui-clickoverlay>*,*/
 .bmpui-disabled.bmpui-ui-closebutton,
 .bmpui-disabled.bmpui-ui-closebutton>*,
 .bmpui-disabled.bmpui-ui-ecomodetogglebutton,
@@ -336,7 +336,7 @@
 .bmpui-disabled.bmpui-ui-audiotracksettingstogglebutton .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-button .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-casttogglebutton .bmpui-label:hover,
-.bmpui-disabled.bmpui-ui-clickoverlay .bmpui-label:hover,
+/*.bmpui-disabled.bmpui-ui-clickoverlay .bmpui-label:hover,*/
 .bmpui-disabled.bmpui-ui-closebutton .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-ecomodetogglebutton .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-fullscreentogglebutton .bmpui-label:hover,
@@ -363,7 +363,7 @@
 .bmpui-hidden.bmpui-ui-audiotracksettingstogglebutton,
 .bmpui-hidden.bmpui-ui-button,
 .bmpui-hidden.bmpui-ui-casttogglebutton,
-.bmpui-hidden.bmpui-ui-clickoverlay,
+/*.bmpui-hidden.bmpui-ui-clickoverlay,*/
 .bmpui-hidden.bmpui-ui-closebutton,
 .bmpui-hidden.bmpui-ui-ecomodetogglebutton,
 .bmpui-hidden.bmpui-ui-fullscreentogglebutton,
@@ -390,7 +390,7 @@
 .bmpui-ui-audiotracksettingstogglebutton:focus,
 .bmpui-ui-button:focus,
 .bmpui-ui-casttogglebutton:focus,
-.bmpui-ui-clickoverlay:focus,
+/*.bmpui-ui-clickoverlay:focus,*/
 .bmpui-ui-closebutton:focus,
 .bmpui-ui-ecomodetogglebutton:focus,
 .bmpui-ui-fullscreentogglebutton:focus,
@@ -419,7 +419,7 @@
 .bmpui-ui-audiotracksettingstogglebutton:focus:not(.bmpui-focus-visible),
 .bmpui-ui-button:focus:not(.bmpui-focus-visible),
 .bmpui-ui-casttogglebutton:focus:not(.bmpui-focus-visible),
-.bmpui-ui-clickoverlay:focus:not(.bmpui-focus-visible),
+/*.bmpui-ui-clickoverlay:focus:not(.bmpui-focus-visible),*/
 .bmpui-ui-closebutton:focus:not(.bmpui-focus-visible),
 .bmpui-ui-ecomodetogglebutton:focus:not(.bmpui-focus-visible),
 .bmpui-ui-fullscreentogglebutton:focus:not(.bmpui-focus-visible),
