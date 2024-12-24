@@ -57,6 +57,7 @@
 .bmpui-ui-vrtogglebutton,
 .bmpui-ui-watermark {
 	/*! placeholder to avoid removal of empty selector */
+	opacity: 0;
 	outline: 0
 }
 
@@ -74,7 +75,8 @@
 .bmpui-ui-uicontainer,
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay,
 .bmpui-ui-volumecontrolbutton {
-	font-size: 1em
+	font-size: 1em;
+	opacity: 0;
 }
 
 .bmpui-ui-uicontainer {
@@ -85,18 +87,22 @@
 	pointer-events: none;
 	position: absolute;
 	top: 0;
+	opacity: 0;
 	width: 100%
 }
 
 .bmpui-ui-uicontainer * {
+	opacity: 0;
 	pointer-events: auto
 }
 
 .bmpui-ui-uicontainer.bmpui-hidden {
+	opacity: 0;
 	display: none
 }
 
 .bmpui-ui-uicontainer.bmpui-player-state-playing.bmpui-controls-hidden * {
+	opacity: 0;
 	cursor: none
 }
 
@@ -3022,15 +3028,15 @@ background-color: transparent;
 }
 
 .bmpui-ui-clickoverlay {
-  display: none !important;
-  pointer-events: none !important;
-  opacity: 0 !important;
+  display: none;
+  pointer-events: none;
+  opacity: 0;
 }
 
 .player-no-tap .bmpui-ui-clickoverlay {
-  pointer-events: none !important;
+  pointer-events: none;
 }
 
 #bitmovin-player-instance .bmpui-ui-clickoverlay {
-  pointer-events: none !important;
+  pointer-events: none;
 }
