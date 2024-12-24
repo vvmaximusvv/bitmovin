@@ -3026,3 +3026,11 @@ background-color: transparent;
   pointer-events: none !important;
   opacity: 0 !important;
 }
+
+.player-no-tap .bmpui-ui-clickoverlay {
+  pointer-events: none !important;
+}
+
+#bitmovin-player-instance .bmpui-ui-clickoverlay {
+  pointer-events: none !important;
+}
