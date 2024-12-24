@@ -31,7 +31,7 @@
 .bmpui-ui-listbox .bmpui-ui-listbox-button,
 .bmpui-ui-piptogglebutton,
 .bmpui-ui-playbacktimelabel,
-.bmpui-ui-playbacktoggle-overlay,
+/*.bmpui-ui-playbacktoggle-overlay,*/
 .bmpui-ui-playbacktogglebutton,
 .bmpui-ui-quickseekbutton,
 .bmpui-ui-recommendation-overlay,
@@ -66,7 +66,7 @@
 .bmpui-ui-controlbar,
 .bmpui-ui-errormessage-overlay,
 .bmpui-ui-listbox,
-.bmpui-ui-playbacktoggle-overlay,
+/*.bmpui-ui-playbacktoggle-overlay,*/
 .bmpui-ui-recommendation-overlay,
 .bmpui-ui-seekbar-label,
 .bmpui-ui-settings-panel,
@@ -2441,10 +2441,11 @@
 	padding-left: 0;
 	padding-right: 0
 }
-
+/*
 .bmpui-ui-skin-ads.bmpui-player-state-playing .bmpui-ui-playbacktoggle-overlay {
 	display: none
 }
+*/
 
 .bmpui-ui-skin-ads.bmpui-ui-skin-smallscreen .bmpui-ui-ads-status {
 	bottom: 0;
