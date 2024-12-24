@@ -1618,7 +1618,8 @@
 	-webkit-transition: top .15s ease-in;
 	transition: top .15s ease-in
 }
-
+/*Play/Pause handle on Prontend app*/
+/*
 .bmpui-ui-clickoverlay {
 	height: 100%;
 	left: 0;
@@ -1627,6 +1628,7 @@
 	top: 0;
 	width: 100%
 }
+*/
 
 .bmpui-ui-hugereplaybutton {
 	height: 5em;
