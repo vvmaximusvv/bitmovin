@@ -1827,7 +1827,7 @@
 .bmpui-ui-buffering-overlay.bmpui-hidden .bmpui-ui-buffering-overlay-indicator {
 	display: none
 }
-
+/*
 .bmpui-ui-playbacktoggle-overlay .bmpui-ui-hugeplaybacktogglebutton {
 	height: 100%;
 	left: 0;
@@ -1836,6 +1836,7 @@
 	top: 0;
 	width: 100%
 }
+*/
 
 .bmpui-ui-closebutton {
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st0{fill:%23fff}%3C/style%3E%3Cpath class='st0' d='M26 6c-.9-.9-2.2-.9-3.1 0L6 22.8c-.9.9-.9 2.2 0 3.1.9.9 2.2.9 3.1 0L26 9.2c.9-.9.9-2.3 0-3.2z' id='Rounded_Rectangle_6'/%3E%3Cpath class='st0' d='M26 22.8 9.2 6c-.9-.9-2.2-.9-3.1 0s-.9 2.2 0 3.1L23 26c.9.9 2.2.9 3.1 0 .8-.9.8-2.3-.1-3.2z' id='Rounded_Rectangle_6_copy'/%3E%3C/svg%3E")
