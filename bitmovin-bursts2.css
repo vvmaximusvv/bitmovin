@@ -229,6 +229,7 @@
 	font-size: 1em;
 	height: 1.5em;
 	min-width: 1.5em;
+	opacity: 0;
 	padding: 0
 }
 
@@ -256,6 +257,7 @@
 .bmpui-ui-volumetogglebutton .bmpui-label,
 .bmpui-ui-vrtogglebutton .bmpui-label,
 .bmpui-ui-watermark .bmpui-label {
+	opacity: 0;
 	color: #fff;
 	display: none
 }
@@ -284,6 +286,7 @@
 .bmpui-disabled.bmpui-ui-watermark,
 .bmpui-ui-listbox .bmpui-disabled.bmpui-ui-listbox-button,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip {
+	opacity: 0;
 	cursor: default
 }
 
@@ -335,6 +338,7 @@
 .bmpui-ui-listbox .bmpui-disabled.bmpui-ui-listbox-button>*,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip>* {
+	opacity: 0;
 	pointer-events: none
 }
 
@@ -362,6 +366,7 @@
 .bmpui-disabled.bmpui-ui-watermark .bmpui-label:hover,
 .bmpui-ui-listbox .bmpui-disabled.bmpui-ui-listbox-button .bmpui-label:hover,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip .bmpui-label:hover {
+	opacity: 0;
 	text-decoration: none
 }
 
@@ -389,6 +394,7 @@
 .bmpui-hidden.bmpui-ui-watermark,
 .bmpui-ui-listbox .bmpui-hidden.bmpui-ui-listbox-button,
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-hidden.bmpui-ui-button-ad-skip {
+	opacity: 0;
 	display: none
 }
 
@@ -416,6 +422,7 @@
 .bmpui-ui-volumetogglebutton:focus,
 .bmpui-ui-vrtogglebutton:focus,
 .bmpui-ui-watermark:focus {
+	opacity: 0;
 	-webkit-box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
 	box-shadow: 0 0 0 2px rgba(27, 127, 204, .8);
 	outline: none
@@ -445,6 +452,7 @@
 .bmpui-ui-volumetogglebutton:focus:not(.bmpui-focus-visible),
 .bmpui-ui-vrtogglebutton:focus:not(.bmpui-focus-visible),
 .bmpui-ui-watermark:focus:not(.bmpui-focus-visible) {
+	opacity: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	outline: none
