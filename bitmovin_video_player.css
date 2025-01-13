@@ -2906,3 +2906,7 @@
 .bmpui-ui-volumetogglebutton {
 	display: none;
 }
+
+.bmpui-ui-settings-panel-item:last-child {
+    display: none !important;
+}
